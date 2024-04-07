@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <title>Der Kranich &mdash; Apothecary</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="toolbar">
+        <div class="container">
+          <div class="toolbar-item">
+            <div class="dropdown">
+              <div class="select">
+                <span class="selected">Deutsch</span>
+                <ion-icon
+                  class="dropdown-icon"
+                  name="chevron-down-outline"
+                ></ion-icon>
+              </div>
+              <ul class="menu">
+                <li>English</li>
+                <li>Español</li>
+                <li>Deutsch</li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <div class="select">
+                <span class="selected">EUR</span>
+                <ion-icon
+                  class="dropdown-icon"
+                  name="chevron-down-outline"
+                ></ion-icon>
+              </div>
+              <ul class="menu">
+                <li>USD</li>
+                <li>GBP</li>
+                <li>EUR</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="main-header">
+          <nav class="main-nav">
+            <ul class="main-nav--list">
+              <li><a class="main-nav--link" href="#shop">SHOP</a></li>
+              <li><a class="main-nav--link" href="#über">ÜBER UNS</a></li>
+              <li>
+                <a class="main-nav--link" href="#services">SERVICES</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="main-logo">
+            <img
+              class="logo"
+              alt="Der Kranich logo"
+              src="./img/Kranich/Kranich_logo01.webp"
+            />
+            <h1 class="main-logo--title uppercase-text">Der Kranich</h1>
+            <span class="main-logo--name">Apothecary</span>
+            <span class="main-logo--text uppercase-text">Est. 1913</span>
+          </div>
+          <div class="main-items">
+            <div class="main-items--list">
+              <a class="main-items--icons" href="#">
+                <ion-icon class="main-icon" name="search-outline"></ion-icon>
+              </a>
+              <div class="main-search">
+                <form class="main-search-bar" name="main-search">
+                  <div class="main-search-space">
+                    <label for="search">&nbsp;</label>
+                    <input
+                      id="search"
+                      type="text"
+                      placeholder="Search"
+                      name="search"
+                      required
+                    />
+                  </div>
+                </form>
+              </div>
+              <a class="main-items--icons" href="#">
+                <ion-icon name="person-outline"></ion-icon>
+              </a>
+              <a class="main-items--icons" href="#">
+                <ion-icon name="heart-outline"></ion-icon>
+              </a>
+              <a class="main-items--icons" href="#">
+                <ion-icon name="bag-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="announcement-bar">
+      <div class="swiper--1 annSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="announcement-slide text-center">
+              <p class="announcement-name">
+                Newsletter:
+                <a class="announcement-link" href="#"
+                  >Jetzt anmelden und 10 Euro Rabatt sichern!</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="announcement-slide">
+              <p class="announcement-name">
+                FRISCH EINGETROFFEN:
+                <a class="announcement-link" href="#"
+                  >Kaltgepresstes Walnussöl</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="announcement-slide">
+              <p class="announcement-name">
+                FRÜHLINGSFRISCHE:
+                <a class="announcement-link" href="#"
+                  >: Erfrischen Sie sich mit unserem Minze-Spray!</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-swiper">
+      <div class="swiper productSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-slide--product text-center">
+              <img
+                class="product-img--1"
+                src="./img/hero/Hero-Img-01.webp"
+                alt="Image 1"
+              />
+              <div class="slide-text slide-text--1 uppercase-text">
+                <h3 class="slide-text--h3">ALLERGIEMINDERUNG MIT SANDDORNÖL</h3>
+                <h2 class="slide-text--h2">Allergiezeit</h2>
+                <a class="product-link product-link--1" href="#"
+                  >Jetzt entdecken</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide--product">
+              <img
+                class="product-img--2"
+                src="./img/hero/Hero-Img-02.webp"
+                alt="Image 1"
+              />
+              <div class="slide-text slide-text--2">
+                <h3 class="slide-text--h3">FRÜHLINGS-HIGHLIGHTS</h3>
+                <h2 class="slide-text--h2">DER KRANICH BESTSELLER</h2>
+                <a class="product-link product-link--2" href="#"
+                  >Mehr erfahren</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide--product">
+              <img
+                class="product-img--3"
+                src="./img/hero/Hero-Img-03.webp"
+                alt="Image 1"
+              />
+              <div class="slide-text slide-text--3">
+                <h3 class="slide-text--h3">
+                  NATÜRLICHE GESICHTSPFLEGE AUS DER KRÄUTERKÜCHE
+                </h3>
+                <h2 class="slide-text--h2">
+                  NATURKOSMETIK INSPIRIERT VON DER NATUR
+                </h2>
+                <a class="product-link product-link--3" href="#"
+                  >Jetzt entdecken</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Quote">
+      <div class="container">
+        <div class="quote-wrapper">
+          <blockquote class="quote-text uppercase-text text-center">
+            Erinnerung ist nicht das Verweilen in der Vergangenheit, <br />
+            sondern das Schmieden neuer Pfade für die Zukunft.<br />(Marceline
+            Dubois)
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="recommendations">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header">Unsere persönlichen Favoriten</h2>
+        </div>
+        <div class="herbal-container">
+          <div class="herbal-grid grid grid--5--cols">
+            <div class="herbal-img">
+              <div class="herbal-gradient"></div>
+              <img
+                class="herbal-img--1"
+                src="./img/recommendations/Herbal-Img-01.webp"
+                alt="bottle of herbal medicine"
+              />
+              <div class="herbal-text uppercase-text text-center common-text">
+                Pflanzliche Öle
+              </div>
+            </div>
+            <div class="herbal-img">
+              <div class="herbal-gradient"></div>
+              <img
+                class="herbal-img--2"
+                src="./img/recommendations/Herbal-Img-02.webp"
+                alt="bottle of herbal medicine"
+              />
+              <div class="herbal-text uppercase-text text-center common-text">
+                Herbal Essences
+              </div>
+            </div>
+            <div class="herbal-img">
+              <div class="herbal-gradient"></div>
+              <img
+                class="herbal-img--3"
+                src="./img/recommendations/Herbal-Img-03.webp"
+                alt="herbal medicine tea"
+              />
+              <div class="herbal-text uppercase-text text-center common-text">
+                Entgiftung
+              </div>
+            </div>
+            <div class="herbal-img">
+              <div class="herbal-gradient"></div>
+              <img
+                class="herbal-img--4"
+                src="./img/recommendations/Herbal-Img-04.webp"
+                alt="bottles of herbal medicine"
+              />
+              <div class="herbal-text uppercase-text text-center common-text">
+                Meditation
+              </div>
+            </div>
+            <div class="herbal-img">
+              <div class="herbal-gradient"></div>
+              <img
+                class="herbal-img--5"
+                src="./img/recommendations/Herbal-Img-05.webp"
+                alt="bottle of herbal medicine"
+              />
+              <div class="herbal-text uppercase-text text-center common-text">
+                Seelenbalsam
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="roots">
+      <div class="roots-img">
+        <img
+          src="./img/roots/green roots.webp"
+          class="majestic tree and roots"
+        />
+      </div>
+      <div class="roots-container">
+        <div class="roots-box">
+          <div class="roots-box--subheader common-text uppercase-text">
+            Unser Leitgedanke
+          </div>
+          <div class="roots-box--header uppercase-text">
+            Von den Wurzeln zum Ziel
+          </div>
+          <div class="roots-box--text">
+            Nachhaltigkeit, Umweltschutz und faires Handeln sind uns ein
+            Anliegen. Wir wollen nicht nur an Traditionen festhalten, sondern
+            mit einem neuen Ansatz etwas zum Besseren bewegen.
+          </div>
+          <a class="roots-box--link uppercase-text common-text" href="#"
+            >Mehr erfahren</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="collection">
+      <div class="container">
+        <h2 class="section-header">Entspanung und Heilung</h2>
+        <div class="btn-container">
+          <a class="section-btn uppercase-text" href="#">Alle</a>
+        </div>
+        <div class="grid grid--4--cols">
+          <div class="col-box" href="#">
+            <img
+              src="./img/Bottles/Demo-Bottle--1.png"
+              alt="Elegant bottle with medicine"
+            />
+            <div class="col-text">
+              <div class="col-label uppercase-text">Der Storch</div>
+              <div class="col-title uppercase-text common-text">
+                Gleichgewicht-Kapseln
+              </div>
+              <div class="col-text">für hormonelles Gleichgewicht</div>
+              <div class="col-price">&euro; 24,90</div>
+            </div>
+          </div>
+          <div class="col-box" href="#">
+            <img
+              src="./img/Bottles/Demo-Bottle--2.png"
+              alt="Elegant bottle with medicine"
+            />
+            <div class="col-text">
+              <div class="col-label uppercase-text">Der Kranich</div>
+              <div class="col-title uppercase-text common-text">
+                Rosmarin Hydrolat
+              </div>
+              <div class="col-text">100% natürliches Hydrolat</div>
+              <div class="col-price">&euro; 14,90</div>
+            </div>
+          </div>
+          <div class="col-box" href="#">
+            <img
+              src="./img/Bottles/Demo-Bottle--3.png"
+              alt="Elegant bottle with medicine"
+            />
+            <div class="col-text">
+              <div class="col-label uppercase-text">Der Kranich</div>
+              <div class="col-title uppercase-text common-text">
+                Kräuteressenz Harmonie
+              </div>
+              <div class="col-text">Traditionelle Kräuterrezeptur</div>
+              <div class="col-price">&euro; 15,90</div>
+            </div>
+          </div>
+          <div class="col-box" href="#">
+            <img
+              src="./img/Bottles/Demo-Bottle--4.png"
+              alt="Elegant bottle with medicine"
+            />
+            <div class="col-text">
+              <div class="col-label uppercase-text">Der Kranich</div>
+              <div class="col-title uppercase-text common-text">
+                Zitronenmelisse Bio
+              </div>
+              <div class="col-text">100% naturrein im 20ml-Violettglas</div>
+              <div class="col-price">&euro; 15,90</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="apotheke">
+      <div class="apotheke-img">
+        <img
+          src="./img/apotheke/Apotheke-01.webp"
+          alt="image of an old pharmacy shelf"
+        />
+      </div>
+      <div class="apotheke-container">
+        <div class="apotheke-box">
+          <div class="apotheke-box--subheader common-text uppercase-text">
+            Der Krankich
+          </div>
+          <div class="apotheke-box--header uppercase-text">
+            Ein Naturheilkunde Juwel
+          </div>
+          <div class="apotheke-box--text">
+            Entdecken Sie die Faszination von "Der Kranich" - einer Apotheke,
+            die nicht nur Geschichte atmet, sondern auch mit zeitgemäßem Komfort
+            und innovativen Lösungen überzeugt. Erfahren Sie, wie wir Tradition
+            und Moderne vereinen, um Ihre Gesundheit und Ihr Wohlbefinden zu
+            fördern.
+          </div>
+          <a class="apotheke-box--link common-text uppercase-text" href="#"
+            >Mehr erfahren</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="container">
+        <h2 class="section-header">Blog Beiträge und Hintergrund Stories</h2>
+        <div class="grid grid--3--cols">
+          <div class="blog-container">
+            <a href="#">
+              <img src="./img/blog/Blog-01.webp" alt="cyclist on a street" />
+            </a>
+            <div class="blog-box">
+              <div class="blog-box--header text-center">
+                Sport & Ernährung: Die Schlüssel zur Spitzenleistung
+              </div>
+              <div class="divider"></div>
+              <div class="blog-box--text common-text">
+                Für Sportler ist nicht nur die richtige Ausrüstung entscheidend,
+                sondern auch eine ausgewogene Ernährung und
+                <a class="blog-box--more common-text" href="#">mehr</a>
+              </div>
+            </div>
+          </div>
+          <div class="blog-container">
+            <a href="#">
+              <img
+                src="./img/blog/Blog-02.webp"
+                alt="young person with healthy skin and flowery head piece"
+              />
+            </a>
+            <div class="blog-box">
+              <div class="blog-box--header">
+                Natürliche Schönheit: Hautpflege mit Naturkosmetik
+              </div>
+              <div class="divider"></div>
+              <div class="blog-box--text common-text">
+                In einer Welt voller chemischer Inhaltsstoffe und künstlicher
+                Produkte sehnen sich viele Menschen nach natürlicher
+                <a class="blog-box--more common-text" href="#">mehr</a>
+              </div>
+            </div>
+          </div>
+          <div class="blog-container">
+            <a href="#">
+              <img src="./img/blog/Blog-03.webp" />
+            </a>
+            <div class="blog-box">
+              <div class="blog-box--header">
+                Namasté mit Aroma-Yoga: Entspannung pur
+              </div>
+              <div class="divider"></div>
+              <div class="blog-box--text common-text">
+                In der heutigen schnelllebigen Welt ist es wichtig, Zeit für
+                Entspannung und Ausgleich zu finden. Eine wunderbare
+                <a class="blog-box--more common-text" href="#">mehr</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container">
+        <h2 class="section-header">
+          Newsletter abonnieren und 10&euro; Gutschein erhalten!
+        </h2>
+        <div class="news-container">
+          <form class="news-form" name="newsletter" netlify>
+            <div class="news-space">
+              <label for="email">&nbsp;</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="Email Adresse"
+                name="email"
+                required
+              />
+            </div>
+          </form>
+          <button class="news-button">
+            <span class="uppercase-text">Subscribe</span>
+          </button>
+        </div>
+
+        <div class="news-disclaimer hidden">
+          <div class="news-disclaimer--grid">
+            <input
+              type="checkbox"
+              value="privacy-policy"
+              name="privacy-policy[accepted]"
+              required
+            />
+            <span class="news-rte">
+              Mit Setzen des Häkchens erkläre ich mich einverstanden, dass die
+              von mir angegebenen Daten von Der Kranich dazu verwendet werden,
+              um mit mir in Kontakt zu bleiben und mir nützliche Updates und
+              Marketing-Informationen zu übermitteln. Diese Einwilligung kann
+              jederzeit mit einer Nachricht an office@der-kranich.eu widerrufen
+              werden. Weitere Informationen können Sie gerne der
+              <a href="#" class="news-link">"Datenschutzerklärung</a> entnehmen.
+            </span>
+            <button type="button" class="news-policy-btn">
+              <ion-icon
+                name="close-outline"
+                class="news-policy-btn--icon"
+              ></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="grid grid--footer">
+          <div class="logo-col">
+            <a href="#" class="footer-logo">
+              <img
+                src="./img/Kranich/Kranich_logo02.webp"
+                alt="white logo of der Kranich"
+              />
+              <div class="footer-logo--grid">
+                <h1 class="footer-logo--title text-center">Der Kranich</h1>
+                <span class="footer-logo--name text-center">Apothecary</span>
+                <span class="footer-logo--text text-center">Est. 1913</span>
+              </div>
+            </a>
+
+            <ul class="social-links">
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon
+                    class="social-icon"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-youtube"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+            </ul>
+
+            <p class="copyright">
+              Copyright &copy; <span class="year">2024</span> by Der Kranich
+              GmbH. <br />All rights reserved.
+            </p>
+          </div>
+          <nav class="nav-col">
+            <p class="footer-heading common-text uppercase-text">Der Kranich</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Blog</a></li>
+              <li><a class="footer-link" href="#">Shop</a></li>
+              <li><a class="footer-link" href="#">Apotheke</a></li>
+              <li><a class="footer-link" href="#">Nachhaltigkeit</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <p class="footer-heading common-text">Costumer care</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">FAQ</a></li>
+              <li><a class="footer-link" href="#">Newsletter</a></li>
+              <li><a class="footer-link" href="#">Kontakt</a></li>
+              <li><a class="footer-link" href="#">Versand & Retour</a></li>
+              <li><a class="footer-link" href="#">Bonusprogramm</a></li>
+              <li><a class="footer-link" href="#">Empfehlungsprogramm</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <p class="footer-heading common-text">Other</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Partner</a></li>
+              <li><a class="footer-link" href="#">Store Partner werden</a></li>
+              <li><a class="footer-link" href="#">Ambassador Programm</a></li>
+              <li><a class="footer-link" href="#">Karriere</a></li>
+              <li><a class="footer-link" href="#">Presse</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <ul class="footer-nav">
+              <li>
+                <a class="footer-link" href="#"
+                  >Allgemeine Geschäftsbedingungen</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="#">Rückerstattungsrichtlinie</a>
+              </li>
+              <li><a class="footer-link" href="#">Datenschutz</a></li>
+              <li><a class="footer-link" href="#">Impressum</a></li>
+              <li><a class="footer-link" href="#">Cookie-Einstellungen</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var annSwiper = new Swiper('.annSwiper', {
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper('.productSwiper', {
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+  </body>
+</html>
