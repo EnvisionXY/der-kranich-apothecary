@@ -1,4 +1,3 @@
-
 # Der Kranich - Apothecary
 
 Welcome to Der Kranich - Apothecary! This is a website showcasing our range of natural health and wellness products, inspired by tradition and nature.
@@ -39,5 +38,3 @@ git clone (https://github.com/EnvisionXY/der-kranich-apothecary.git)
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-Feel free to customize and expand this README file according to your project's specific details and requirements.
