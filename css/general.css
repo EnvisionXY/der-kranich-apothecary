@@ -98,10 +98,10 @@ body {
 
 @font-face {
   font-family: 'HelveticaNeueLTPro-Cn';
-  src: url(../Fonts/4c9a47c651b614e757056aaa06aa0138.woff2) format('woff2'),
-    url(../Fonts/4c9a47c651b614e757056aaa06aa0138.woff) format('woff'),
-    url(../Fonts/4c9a47c651b614e757056aaa06aa0138.ttf) format('truetype'),
-    url(../Fonts/4c9a47c651b614e757056aaa06aa0138.svg) format('svg');
+  src: url(../Font/4c9a47c651b614e757056aaa06aa0138.woff2) format('woff2'),
+    url(../Font/4c9a47c651b614e757056aaa06aa0138.woff) format('woff'),
+    url(../Font/4c9a47c651b614e757056aaa06aa0138.ttf) format('truetype'),
+    url(../Font/4c9a47c651b614e757056aaa06aa0138.svg) format('svg');
 }
 
 .container {
