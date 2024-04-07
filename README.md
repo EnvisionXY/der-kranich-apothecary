@@ -1,6 +1,3 @@
-Sure, here's a basic README file for your website on GitHub:
-
----
 
 # Der Kranich - Apothecary
 
@@ -30,7 +27,7 @@ To view the website locally, simply open the `index.html` file in your web brows
 No installation is required to view the website. However, if you want to modify or customize the website, you can clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/your-repository.git
+git clone [https://github.com/yourusername/your-repository.git](https://github.com/EnvisionXY/der-kranich-apothecary.git)
 ```
 
 ## Credits
