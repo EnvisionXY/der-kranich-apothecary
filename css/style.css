@@ -508,8 +508,9 @@ Open styles
 }
 
 .col-box img {
-  width: 60%;
-  height: 60%;
+  width: 50%;
+  height: auto;
+  max-width: 100%;
   object-fit: cover;
   position: relative;
 }
@@ -551,7 +552,7 @@ Open styles
 
 .col-label {
   font-size: 1.4rem;
-  color: #c5bfa0;
+  color: #4f4a30;
   font-weight: 100;
   letter-spacing: 0.45rem;
 }
@@ -563,7 +564,7 @@ Open styles
   font-size: 1.4rem;
 }
 .col-price {
-  color: #9e9460;
+  color: #4f4a30;
   font-size: 1.4rem;
 }
 
