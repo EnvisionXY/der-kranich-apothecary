@@ -349,7 +349,7 @@ Open styles
   line-height: 1.5;
 }
 
-.quote-wrapper::before,
+/* .quote-wrapper::before,
 .quote-wrapper::after {
   content: '\201F';
   font-size: 12rem;
@@ -365,6 +365,24 @@ Open styles
 .quote-wrapper::after {
   right: 15rem;
   top: 8rem;
+} */
+
+.quote-mark-left,
+.quote-mark-right {
+  display: inline-block;
+  font-size: 12rem;
+  color: #9e9460;
+
+  height: 5rem;
+  width: 5rem;
+}
+
+.quote-mark-left {
+  vertical-align: -2rem;
+}
+
+.quote-mark-right {
+  vertical-align: middle;
 }
 
 /**********************/
