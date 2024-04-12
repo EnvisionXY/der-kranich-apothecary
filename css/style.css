@@ -57,7 +57,6 @@
   transition: background 0.3s;
 }
 
-/* Change color of toolbar-icon on hover */
 .select:hover .dropdown-icon {
   color: #9e9460;
 }
@@ -65,11 +64,6 @@
 .select span {
   font-size: 1.4rem;
 }
-
-/* 
-CLicked layers
-(added later in Javascript)
- */
 
 .menu {
   list-style: none;
@@ -101,21 +95,11 @@ CLicked layers
   text-underline-offset: 4px;
 }
 
-/* 
-Active styles
-(added later in Javascript)
- */
-
 .active {
   text-decoration: underline;
   text-decoration-color: #212529;
   text-underline-offset: 4px;
 }
-
-/* 
-Open styles
-(added later in Javascript)
- */
 
 .menu-open {
   display: block;
@@ -161,8 +145,9 @@ Open styles
   justify-content: center;
 }
 
-.logo {
+.kranich-logo {
   max-width: 30%;
+  min-width: 8rem;
 }
 
 .main-logo--title {
@@ -180,21 +165,6 @@ Open styles
 }
 
 .main-logo--text {
-  color: #090203;
-}
-
-.main-items {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.main-items--list {
-  display: flex;
-  align-items: center;
-
-  font-size: 2rem;
-  gap: 2.4rem;
   color: #090203;
 }
 
@@ -236,6 +206,42 @@ Open styles
   display: none;
 }
 
+/* Mobile Navigation */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+  display: none;
+}
+
+.icon-mobile--heart {
+  display: none;
+}
+
+.main-items {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.main-items--list {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  gap: 2.4rem;
+  color: #090203;
+}
+
 /**********************/
 /* ANNOUNCEMENT SLIDER */
 /**********************/
@@ -273,7 +279,7 @@ Open styles
 .swiper-slide--product img {
   display: block;
   width: 100%;
-  height: 60rem;
+  max-height: 60rem;
   object-fit: cover;
   object-position: bottom;
 }
@@ -283,7 +289,6 @@ Open styles
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-
   align-items: flex-start;
 }
 
@@ -321,12 +326,13 @@ Open styles
 
 .slide-text--3 {
   align-items: flex-end;
-  top: 38rem;
+  top: 5rem;
   right: 8rem;
 }
 
 .product-link {
   text-decoration: none;
+  letter-spacing: 0.2rem;
 }
 
 /**********************/
@@ -338,7 +344,8 @@ Open styles
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 16rem;
+  margin-top: 16rem;
+  margin-bottom: 16rem;
 }
 
 .quote-text {
@@ -424,7 +431,7 @@ Open styles
 
 .roots-img img {
   width: 100%;
-  height: 60rem;
+  max-height: 60rem;
   object-fit: cover;
 }
 
@@ -594,7 +601,7 @@ Open styles
 
 .apotheke-img img {
   width: 100%;
-  height: 80rem;
+  max-height: 80rem;
   object-fit: cover;
 }
 
