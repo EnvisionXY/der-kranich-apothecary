@@ -1,0 +1,62 @@
+/* rem and em do NOT depend on html font-size in media queries! 
+Instead, 1rem = 1em = 16px */
+
+/**********************/
+/* BELOW 1187px(Landscape Tablets)  */
+/**********************/
+
+@media (max-width: 74em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .footer {
+    padding: 8rem;
+  }
+}
+
+/**********************/
+/* BELOW 944px(Tablets)  */
+/**********************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .col-title {
+    letter-spacing: 0.25rem;
+  }
+
+  .divider {
+    width: 20rem;
+  }
+}
+
+/**********************/
+/* BELOW 700px(Small Tablets)  */
+/**********************/
+
+@media (max-width: 44em) {
+  .grid--3--cols,
+  .grid--4--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/**********************/
+/* BELOW 544px(Phones)   */
+/**********************/
+
+@media (max-width: 34em) {
+  .grid- {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2--cols,
+  .grid--3--cols,
+  .grid--4--cols {
+    grid-template-columns: 1fr;
+  }
+}

@@ -122,17 +122,24 @@ policyBtn.addEventListener('click', function () {
 
 // Blog dynamic divider length
 
-// Function to adjust divider length based on header width
-function adjustDividerLength() {
-  const blogHeaders = document.querySelectorAll('.blog-box--header');
+function adjustDividerWidth() {
+  const headerSpans = document.querySelectorAll('.blog-box-header--span');
 
-  blogHeaders.forEach(blogHeader => {
-    const headerWidth = blogHeader.clientWidth;
-    const divider = blogHeader.nextElementSibling;
-    const newDividerWidth = headerWidth * 0.9;
-    divider.style.width = `${newDividerWidth}px`;
+  headerSpans.forEach(headerSpan => {
+    const boundingRect = headerSpan.getBoundingClientRect();
+    const headerWidth = boundingRect.width;
+    // console.log(headerWidth);
+
+    const divider = headerSpan
+      .closest('.blog-container')
+      .querySelector('.divider');
+    // console.log('Divider element:', divider);
+
+    const newDivider = headerWidth * 0.9;
+    divider.style.width = `${newDivider}px`;
   });
 }
 
-// Call the function when the DOM content is loaded
-document.addEventListener('DOMContentLoaded', adjustDividerLength);
+adjustDividerWidth();
+
+window.addEventListener('resize', adjustDividerWidth);

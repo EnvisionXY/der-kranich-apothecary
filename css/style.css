@@ -349,24 +349,6 @@ Open styles
   line-height: 1.5;
 }
 
-/* .quote-wrapper::before,
-.quote-wrapper::after {
-  content: '\201F';
-  font-size: 12rem;
-  color: #9e9460;
-  position: absolute;
-}
-
-.quote-wrapper::before {
-  left: 15rem;
-  top: -3rem;
-}
-
-.quote-wrapper::after {
-  right: 15rem;
-  top: 8rem;
-} */
-
 .quote-mark-left,
 .quote-mark-right {
   display: inline-block;
@@ -671,9 +653,8 @@ Open styles
 }
 
 .blog-container img {
-  height: auto;
   max-width: 100%;
-  vertical-align: middle;
+  object-fit: cover;
 }
 
 .blog-box {
@@ -693,7 +674,7 @@ Open styles
 .divider {
   display: flex;
   justify-content: center;
-  /* width: 35rem; */
+
   border-bottom: 1px solid #9e9460;
 }
 
@@ -844,6 +825,7 @@ Open styles
 
 .grid--footer {
   grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+
   gap: 2.4rem;
 }
 
@@ -853,21 +835,22 @@ Open styles
 }
 
 .footer-logo {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 3.2rem;
   text-decoration: none;
 }
 
 .footer-logo img {
-  width: 15rem;
+  width: 60%;
   height: auto;
 }
 
-.footer-logo--grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  align-items: center;
+.footer-logo--text {
+  display: block;
+  text-align: center;
 }
 
 .footer-logo--title,
@@ -888,15 +871,11 @@ Open styles
   grid-row: span 1;
 }
 
-.footer-logo--text {
-  grid-column: span 1;
-  grid-row: 3;
-}
-
 .social-links {
   list-style: none;
   display: flex;
   gap: 2.4rem;
+  justify-content: center;
 }
 
 .social-icon {
@@ -914,7 +893,8 @@ Open styles
   font-size: 1.4rem;
   color: #fff;
   line-height: 1.6;
-  margin-top: 2rem;
+  margin-top: 3.2rem;
+  text-align: center;
 }
 
 .footer-heading {
