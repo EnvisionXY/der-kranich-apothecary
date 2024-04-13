@@ -4,10 +4,9 @@ Instead, 1rem = 1em = 16px */
 /**********************/
 /* BELOW 1187px(Landscape Tablets)  */
 /**********************/
-
 @media (max-width: 74em) {
   html {
-    font-size: 56.25%;
+    font-size: 56.25%; /* 16px * 0.5625 = 9px */
   }
 
   .footer {
@@ -18,7 +17,6 @@ Instead, 1rem = 1em = 16px */
 /**********************/
 /* BELOW 944px(Tablets)  */
 /**********************/
-
 @media (max-width: 59em) {
   html {
     /* 8px / 16px = 0.5 = 50% */
@@ -37,7 +35,6 @@ Instead, 1rem = 1em = 16px */
 /**********************/
 /* BELOW 700px(Small Tablets)  */
 /**********************/
-
 @media (max-width: 44em) {
   .header {
     margin-top: 2.4rem;
@@ -111,13 +108,39 @@ Instead, 1rem = 1em = 16px */
   }
 
   /* Mobile navigation */
-
   .toolbar-item {
     display: none;
   }
 
   .main-nav {
     display: none;
+  }
+
+  .main-nav--mobile {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    min-width: 36rem;
+    z-index: 100;
+  }
+
+  .main-nav--list--mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    list-style: none;
+  }
+
+  .main-nav--link--mobile {
+    text-decoration: none;
+    color: #090203;
+    font-size: 2.4rem;
+    font-weight: 100;
+    letter-spacing: 0.4rem;
   }
 
   .icon-mobile--heart {
@@ -149,7 +172,6 @@ Instead, 1rem = 1em = 16px */
 /**********************/
 /* BELOW 544px(Phones)   */
 /**********************/
-
 @media (max-width: 34em) {
   .grid- {
     row-gap: 4.8rem;

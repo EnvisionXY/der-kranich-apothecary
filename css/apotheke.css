@@ -1,0 +1,61 @@
+/**********************/
+/* APOTHEKE */
+/**********************/
+
+.apotheke {
+  height: 80rem;
+  margin-bottom: 16rem;
+  position: relative;
+}
+
+.store-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.apotheke-img img {
+  width: 100%;
+  max-height: 80rem;
+  object-fit: cover;
+}
+
+.apotheke-container {
+  height: auto;
+  width: 40rem;
+  background-color: #fff;
+  transform: translate(20%, -160%);
+  opacity: 0.97;
+}
+
+.apotheke-box {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.apotheke-box--subheader,
+.apotheke-box--header,
+.apotheke-box--link {
+  letter-spacing: 0.4rem;
+  color: #090203;
+}
+
+.apotheke-box--header {
+  margin-bottom: 0.6rem;
+}
+
+.apotheke-box--text {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: 1.2px;
+  margin-bottom: 0.6rem;
+}
+
+.apotheke-box--link {
+  text-decoration: none;
+  color: #090203;
+  border: solid 2px #9e9460;
+  padding: 1.5rem;
+  width: 20rem;
+}

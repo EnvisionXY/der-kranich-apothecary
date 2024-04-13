@@ -1,0 +1,98 @@
+/* Header Dropdpwn */
+
+.dropdown-icon {
+  font-size: 1.8rem;
+  color: #212529;
+  transition: color 0.3s ease;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.section-dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.select {
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.select:hover .dropdown-icon {
+  color: #9e9460;
+}
+
+.select span {
+  font-size: 1.4rem;
+}
+
+.menu {
+  list-style: none;
+  padding: 0.2em 0.5em;
+  box-shadow: 0 0.3em 2em rgba(0, 0, 0, 0.1);
+  color: #555;
+  position: absolute;
+  top: 2em;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  opacity: 0;
+  display: none;
+  transition: 0.2s;
+  z-index: 1;
+}
+
+.menu li {
+  font-size: 1.4rem;
+  padding: 0.7em 0.5em;
+  margin: 0.3em 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+  text-decoration-color: #212529;
+  text-underline-offset: 4px;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-color: #212529;
+  text-underline-offset: 4px;
+}
+
+.menu-open {
+  display: block;
+  opacity: 1;
+}
+
+/*  Mobile Dropdown */
+
+.mobile-selected {
+  font-size: 2.4rem;
+  letter-spacing: 0.4rem;
+  color: #090203;
+}
+
+.mobile-menu-open {
+  display: block;
+  opacity: 1;
+}

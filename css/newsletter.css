@@ -1,0 +1,116 @@
+/**********************/
+/* NEWSLETTER */
+/**********************/
+
+.newsletter {
+  margin-bottom: 10rem;
+}
+
+.news-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.news-form input[type='email'] {
+  outline: none;
+  border: 0.5px solid #c5bfa0;
+  font-family: 'HelveticaNeueLTPro-Cn', Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  padding: 1.2rem 10rem 1.2rem 1.2rem;
+}
+
+.news-space input::placeholder {
+  color: #343a40;
+}
+
+.news-space label {
+  display: none;
+}
+
+.news-button {
+  background-color: #9e9460;
+  border: 1px solid #9e9460;
+  transition: all 0.3s ease;
+}
+
+.news-button:hover {
+  background-color: #b1a980;
+  border: 1px solid #b1a980;
+}
+
+.news-button span {
+  padding: 1rem 1.1rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+.news-disclaimer {
+  margin: 0 auto;
+  width: 39.5rem;
+
+  padding: 1.2rem;
+}
+
+.news-disclaimer--grid {
+  display: grid;
+  grid-template-columns: 1fr 20fr 1fr;
+  grid-template-rows: 1fr 15fr;
+}
+
+.news-disclaimer span {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  text-align: left;
+}
+
+.news-disclaimer input {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1; /* Placed in the second row */
+}
+
+.news-disclaimer .news-rte {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1; /* Also placed in the second row */
+}
+
+.news-disclaimer .news-policy-btn {
+  grid-column: 3 / span 3;
+  grid-row: 1 / span 1;
+}
+
+.news-rte {
+  color: #090203;
+}
+
+.news-policy-btn {
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #fff;
+  border: 0.5px solid #090203;
+  transition: all 0.3s ease;
+}
+
+.news-policy-btn:hover {
+  border: 0.5px solid #9e9460;
+}
+
+.news-link {
+  color: #090203;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: #c5bfa0;
+  text-underline-offset: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}

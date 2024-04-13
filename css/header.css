@@ -1,0 +1,134 @@
+/**********************/
+/* HEADER */
+/**********************/
+
+/* toolbar */
+
+.header {
+  margin-bottom: 2.4rem;
+}
+
+.toolbar-item {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 1.2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 3.2rem;
+}
+
+/* Main Header */
+
+.main-nav--list {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.main-nav--link {
+  text-decoration: none;
+  color: #090203;
+  font-size: 1.4rem;
+  letter-spacing: 0.4rem;
+  transition: all 0.3s ease;
+}
+
+.main-nav--link:hover {
+  color: #9e9460;
+}
+
+.main-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.main-nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.main-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.kranich-logo {
+  max-width: 30%;
+  min-width: 8rem;
+}
+
+.main-logo--title {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  color: #090203;
+  margin-top: 0.4rem;
+}
+
+.main-logo--name {
+  font-size: 1.4rem;
+  color: #090203;
+  letter-spacing: 0.2rem;
+}
+
+.main-logo--text {
+  color: #090203;
+}
+
+.main-items {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.main-items--list {
+  display: flex;
+  align-items: center;
+
+  font-size: 2rem;
+  gap: 2.4rem;
+  color: #090203;
+}
+
+.main-items--icons {
+  text-decoration: none;
+  color: #090203;
+  transition: all 0.3s ease;
+}
+
+.main-items--icons:hover {
+  color: #9e9460;
+}
+
+.main-search {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.main-search-bar {
+  width: 10rem;
+  display: inline-block;
+}
+
+.main-search-bar input[type='text'] {
+  outline: none;
+  border: none;
+  width: 100%;
+  font-family: 'HelveticaNeueLTPro-Cn', Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+}
+
+.main-search input::placeholder {
+  color: #bebcbc;
+}
+
+.main-search-space label {
+  display: none;
+}

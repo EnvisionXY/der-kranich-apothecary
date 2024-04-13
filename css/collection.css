@@ -1,0 +1,107 @@
+/**********************/
+/* COLLECTION */
+/**********************/
+
+.collection {
+  margin-bottom: 16rem;
+}
+
+.section-btn {
+  font-size: 1.2rem;
+  letter-spacing: 0.4rem;
+  border: solid 0.5px #d8d4bf;
+  width: 8rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in;
+}
+
+.section-btn:hover {
+  border: solid 0.5px #090203;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.col-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
+}
+
+.col-box img {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.col-box::after {
+  content: 'Quick View'; /* Add content for the pseudo-element */
+  position: absolute; /* Position the pseudo-element */
+  cursor: pointer;
+  transform: translateY(27rem);
+  background-color: #9e9460; /* Background color */
+  color: #fff; /* Text color */
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 1rem 14rem;
+  opacity: 0; /* Initially hide the pseudo-element */
+  transition: all 0.3s ease; /* Add transition effect for opacity */
+}
+
+.col-box:hover::after {
+  opacity: 1; /* Show the pseudo-element on hover */
+  transform: translateY(26.5rem);
+}
+
+.col-box::after a {
+  color: inherit; /* Inherit text color from parent */
+  text-decoration: none; /* Remove underline */
+}
+
+.col-box::after a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.col-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.col-label {
+  font-size: 1.4rem;
+  color: #4f4a30;
+  font-weight: 100;
+  letter-spacing: 0.45rem;
+}
+.col-title {
+  color: #090203;
+  letter-spacing: 0.45rem;
+}
+.col-text {
+  font-size: 1.4rem;
+}
+.col-price {
+  color: #4f4a30;
+  font-size: 1.4rem;
+}
+
+.quick-view {
+  position: absolute;
+  transform: translateY(27rem);
+  background-color: #9e9460;
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 1rem 14rem;
+}

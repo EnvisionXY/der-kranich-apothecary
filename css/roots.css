@@ -1,0 +1,55 @@
+/**********************/
+/* ROOTS */
+/**********************/
+
+.roots {
+  height: 60rem;
+  margin-bottom: 16rem;
+}
+
+.roots-img img {
+  width: 100%;
+  max-height: 60rem;
+  object-fit: cover;
+}
+
+.roots-container {
+  height: auto;
+  width: 40rem;
+  background-color: #fff;
+  transform: translate(20%, -190%);
+  opacity: 0.97;
+}
+
+.roots-box {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.roots-box--subheader,
+.roots-box--header,
+.roots-box--link {
+  letter-spacing: 0.4rem;
+  color: #090203;
+}
+
+.roots-box--header {
+  margin-bottom: 0.6rem;
+}
+
+.roots-box--text {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: 1.2px;
+  margin-bottom: 0.6rem;
+}
+
+.roots-box--link {
+  text-decoration: none;
+  color: #090203;
+  border: solid 2px #9e9460;
+  padding: 1.5rem;
+  width: 20rem;
+}

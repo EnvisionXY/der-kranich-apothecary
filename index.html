@@ -20,8 +20,23 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./css/general.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+
+    <link rel="stylesheet" href="./css/apotheke.css" />
+    <link rel="stylesheet" href="./css/blog.css" />
+    <link rel="stylesheet" href="./css/collection.css" />
+    <link rel="stylesheet" href="./css/dropdowns.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/mobile-nav.css" />
+    <link rel="stylesheet" href="./css/newsletter.css" />
+    <link rel="stylesheet" href="./css/quote.css" />
+    <link rel="stylesheet" href="./css/recommendations.css" />
+    <link rel="stylesheet" href="./css/roots.css" />
+    <link rel="stylesheet" href="./css/slider-hero.css" />
+
     <link rel="stylesheet" href="./css/queries.css" />
+
     <title>Der Kranich &mdash; Apotheke</title>
   </head>
   <body>
@@ -64,11 +79,13 @@
         <div class="main-header">
           <button class="btn-mobile-nav">
             <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
             <a class="icon-mobile-nav icon-mobile--heart" href="#">
               <ion-icon name="heart-outline"></ion-icon>
             </a>
           </button>
+
+          <!-- DESKTOP NAV -->
+
           <nav class="main-nav">
             <ul class="main-nav--list">
               <li><a class="main-nav--link" href="#shop">SHOP</a></li>
@@ -78,6 +95,28 @@
               </li>
             </ul>
           </nav>
+
+          <!-- MOBILE NAV -->
+
+          <nav class="main-nav--mobile">
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+
+            <div class="mobile-dropdown">
+              <div class="mobile-select">
+                <span class="mobile-selected uppercase-text">Shop</span>
+                <ion-icon
+                  class="mobile-dropdown-icon"
+                  name="chevron-down-outline"
+                ></ion-icon>
+              </div>
+              <ul class="mobile-dropdown-menu">
+                <li>Der Kranich <br />Natural Cosmetics</li>
+                <li>Der Kranich <br />Aromatherapy</li>
+                <li>Der Kranich <br />Herbal Remedies</li>
+              </ul>
+            </div>
+          </nav>
+
           <div class="main-logo">
             <img
               class="kranich-logo"
@@ -649,9 +688,11 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="./js/script.js"></script>
+    <script src="./js/mobile-dropdown.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- <script>
+    <script>
       var annSwiper = new Swiper('.annSwiper', {
         centeredSlides: true,
         loop: true,
@@ -679,6 +720,6 @@
           prevEl: '.swiper-button-prev',
         },
       });
-    </script> -->
+    </script>
   </body>
 </html>

@@ -1,0 +1,38 @@
+/**********************/
+/* QUOTE */
+/**********************/
+
+.quote-wrapper {
+  position: relative; /* Required for positioning pseudo-elements */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16rem;
+  margin-bottom: 16rem;
+}
+
+.quote-text {
+  color: #090203;
+  font-size: 2.4rem;
+  letter-spacing: 0.2rem;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.quote-mark-left,
+.quote-mark-right {
+  display: inline-block;
+  font-size: 12rem;
+  color: #9e9460;
+
+  height: 5rem;
+  width: 5rem;
+}
+
+.quote-mark-left {
+  vertical-align: -2rem;
+}
+
+.quote-mark-right {
+  vertical-align: middle;
+}
