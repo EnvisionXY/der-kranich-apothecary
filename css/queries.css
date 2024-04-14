@@ -36,52 +36,58 @@ Instead, 1rem = 1em = 16px */
 /* BELOW 700px(Small Tablets)  */
 /**********************/
 @media (max-width: 44em) {
+  /* General */
   .header {
     margin-top: 2.4rem;
   }
 
+  /* Grid */
   .grid--3--cols,
   .grid--4--cols {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .section-header {
-    font-size: 2.4rem;
-  }
-
-  .apotheke-container {
-    transform: translate(20%, -113%);
-  }
-
-  .quote-text {
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-size: 1.8rem;
-  }
-
-  h2 {
-    font-size: 3rem;
-  }
-
-  .grid {
-    gap: 4.4rem;
   }
 
   .grid--5--cols {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .col-box img {
-    width: 40%;
+  .grid {
+    gap: 4.4rem;
   }
 
+  /* Typography */
+  .section-header {
+    font-size: 2.4rem;
+  }
+
+  .quote-text {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  .blog-box--text {
+    line-height: 1.5;
+  }
+
+  /* Apotheke Container */
+  .apotheke-container {
+    transform: translate(20%, -113%);
+  }
+
+  /* Quote Wrapper */
   .quote-wrapper {
     margin-top: 9.8rem;
     margin-bottom: 14.2rem;
   }
 
+  /* Herbal Images */
   .herbal-img {
     width: 80%;
     justify-self: center;
@@ -99,25 +105,19 @@ Instead, 1rem = 1em = 16px */
     display: none;
   }
 
+  /* Apotheke */
   .apotheke {
     height: 57rem;
   }
 
-  .blog-box--text {
-    line-height: 1.5;
-  }
-
-  /* Mobile navigation */
-  .toolbar-item {
-    display: none;
-  }
-
+  /* Mobile Navigation */
+  .toolbar-item,
   .main-nav {
     display: none;
   }
 
   .main-nav--mobile {
-    display: block;
+    /* display: block; */
     background-color: #fff;
     position: absolute;
     top: 0;
@@ -166,6 +166,10 @@ Instead, 1rem = 1em = 16px */
   .main-items--list > :nth-child(3),
   .main-items--list > :nth-child(4) {
     display: none;
+  }
+
+  .icon-mobile-open {
+    font-size: 4rem;
   }
 }
 

@@ -143,3 +143,14 @@ function adjustDividerWidth() {
 adjustDividerWidth();
 
 window.addEventListener('resize', adjustDividerWidth);
+
+// Set length of mobile divider
+
+const dropdownBox = document.querySelector('.mobile-dropdown--box');
+const divider = document.querySelector('.mobile-divider');
+
+// Get the width of the dropdown box
+const width = dropdownBox.getBoundingClientRect().width;
+
+// Set the width of the divider to the width of the dropdown box
+divider.style.width = width + 'px';
