@@ -153,4 +153,4 @@ const divider = document.querySelector('.mobile-divider');
 const width = dropdownBox.getBoundingClientRect().width;
 
 // Set the width of the divider to the width of the dropdown box
-divider.style.width = width + 'px';
+divider.style.maxWidth = width + 'px';

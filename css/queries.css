@@ -12,6 +12,10 @@ Instead, 1rem = 1em = 16px */
   .footer {
     padding: 8rem;
   }
+
+  .main-nav--mobile {
+    display: none;
+  }
 }
 
 /**********************/
@@ -82,9 +86,15 @@ Instead, 1rem = 1em = 16px */
   }
 
   /* Quote Wrapper */
+
   .quote-wrapper {
     margin-top: 9.8rem;
     margin-bottom: 14.2rem;
+  }
+
+  .quote-mark-left,
+  .quote-mark-right {
+    font-size: 8rem;
   }
 
   /* Herbal Images */
@@ -111,21 +121,36 @@ Instead, 1rem = 1em = 16px */
   }
 
   /* Mobile Navigation */
+
+  .main-nav--mobile {
+    display: block;
+  }
+
+  .blur {
+    background-color: #ffffff91;
+    filter: blur(3px);
+    transition: filter 0.3s ease;
+  }
+
   .toolbar-item,
   .main-nav {
     display: none;
   }
 
   .main-nav--mobile {
-    /* display: block; */
     background-color: #fff;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -100%;
     width: 50%;
     height: 100vh;
     min-width: 36rem;
     z-index: 100;
+    transition: left 0.3s ease;
+  }
+
+  .main-nav--mobile.show-menu {
+    left: 0;
   }
 
   .main-nav--list--mobile {
@@ -145,7 +170,7 @@ Instead, 1rem = 1em = 16px */
 
   .icon-mobile--heart {
     color: #090203;
-    font-size: 4rem;
+    font-size: 3.6rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,7 +184,7 @@ Instead, 1rem = 1em = 16px */
   }
 
   .main-items--list {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
 
   .main-items--list > :nth-child(2),
@@ -169,7 +194,56 @@ Instead, 1rem = 1em = 16px */
   }
 
   .icon-mobile-open {
-    font-size: 4rem;
+    font-size: 3.6rem;
+  }
+
+  /* Footer */
+
+  .grid--footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer {
+    padding: 4.8rem;
+  }
+
+  .footer-logo img {
+    width: 50%;
+  }
+
+  .footer-logo--title {
+    font-size: 1.6rem;
+  }
+
+  .footer-logo--name {
+    font-size: 1.2rem;
+  }
+
+  .social-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .social-links {
+    gap: 1.6rem;
+  }
+
+  .icon-inner .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.2rem;
+  }
+
+  .logo-col {
+    grid-row: span 2;
+    justify-content: center;
+  }
+
+  .nav-col--3 {
+    grid-column: 2;
+  }
+
+  .nav-col--4 {
+    grid-column: 3;
   }
 }
 
@@ -185,5 +259,53 @@ Instead, 1rem = 1em = 16px */
   .grid--3--cols,
   .grid--4--cols {
     grid-template-columns: 1fr;
+  }
+
+  .icon-mobile-open {
+    font-size: 3.6rem;
+  }
+
+  .slide-text--1,
+  .slide-text--2,
+  .slide-text--3 {
+    align-items: flex-start;
+    top: 4.5rem;
+    left: 4.5rem;
+    right: 0;
+  }
+
+  .product-img--1 {
+    filter: brightness(0.7);
+  }
+
+  .quote-mark-left,
+  .quote-mark-right {
+    font-size: 6rem;
+  }
+
+  .quote-text {
+    letter-spacing: 0.5px;
+  }
+
+  .roots-container {
+    transform: translate(31%, -180%);
+  }
+
+  .col-box img {
+    width: 35%;
+  }
+
+  .apotheke-img img {
+    width: 100%;
+    height: 60rem;
+    object-fit: cover;
+  }
+
+  .apotheke-container {
+    transform: translate(31%, -116%);
+  }
+  .section-header {
+    text-align: center;
+    line-height: 1.5;
   }
 }

@@ -84,7 +84,7 @@
   opacity: 1;
 }
 
-/*  Mobile Dropdown */
+/*  Mobile Nav Dropdown */
 
 .mobile-menu-open {
   display: block;
@@ -142,4 +142,29 @@
   font-size: 3.2rem;
 
   color: #090203;
+}
+
+.mobile-sub-menu {
+  display: none;
+}
+
+.mobile-dropdown-menu a,
+.mobile-dropdown-menu li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #090203;
+  letter-spacing: 0.4rem;
+}
+
+.mobile-dropdown-menu--flex {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.rotate-chevron {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
 }
