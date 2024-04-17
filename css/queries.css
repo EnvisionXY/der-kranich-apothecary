@@ -1,6 +1,13 @@
 /* rem and em do NOT depend on html font-size in media queries! 
 Instead, 1rem = 1em = 16px */
 
+/* Mobile dropdown menu  */
+@media (min-width: 74em) {
+  .main-nav--mobile {
+    display: none;
+  }
+}
+
 /**********************/
 /* BELOW 1187px(Landscape Tablets)  */
 /**********************/
