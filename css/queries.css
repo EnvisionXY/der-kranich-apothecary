@@ -52,6 +52,10 @@ Instead, 1rem = 1em = 16px */
     margin-top: 2.4rem;
   }
 
+  .main-items--icons {
+    height: 28.8px;
+  }
+
   /* Grid */
   .grid--3--cols,
   .grid--4--cols {
@@ -257,6 +261,7 @@ Instead, 1rem = 1em = 16px */
 /**********************/
 /* BELOW 544px(Phones)   */
 /**********************/
+
 @media (max-width: 34em) {
   .grid- {
     row-gap: 4.8rem;
@@ -282,7 +287,7 @@ Instead, 1rem = 1em = 16px */
   }
 
   .product-img--1 {
-    filter: brightness(0.7);
+    filter: brightness(0.8);
   }
 
   .quote-mark-left,
@@ -314,5 +319,158 @@ Instead, 1rem = 1em = 16px */
   .section-header {
     text-align: center;
     line-height: 1.5;
+  }
+}
+
+/**********************/
+/* BELOW 412px(Medium & Small Phones)   */
+/**********************/
+
+@media (max-width: 25.75em) {
+  /* Header */
+
+  .header {
+    margin: 1.6rem 0 1.6rem 0;
+  }
+
+  .kranich-logo {
+    min-width: 7rem;
+  }
+
+  .main-logo--title {
+    font-size: 1.6rem;
+  }
+
+  .main-items--icons {
+    height: 24px;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  .icon-mobile-open,
+  .icon-mobile--heart,
+  .main-items--list {
+    font-size: 3rem;
+  }
+
+  /* Product Swiper */
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .product-link {
+    font-size: 1.4rem;
+    width: 17rem;
+  }
+
+  .slide-text {
+    gap: 1.6rem;
+  }
+
+  .slide-text--h3--3,
+  .slide-text--h2--3 {
+    line-height: 1.5;
+    text-align: right;
+    color: #fff;
+  }
+
+  .slide-text--h3--2,
+  .slide-text--h2--2 {
+    color: #090203;
+  }
+
+  .product-link--3 {
+    color: #fff;
+  }
+
+  .product-img--1 {
+    filter: brightness(0.5);
+  }
+
+  .product-img--3 {
+    filter: saturate(0.5) brightness(0.6);
+  }
+
+  .slide-text--3 {
+    align-items: flex-end;
+    top: 2.5rem;
+    right: 13px;
+  }
+
+  /* Quote*/
+
+  .quote-text {
+    font-size: 1.6rem;
+  }
+
+  .quote-mark-left,
+  .quote-mark-right {
+    height: 3rem;
+    width: 3rem;
+    font-size: 5rem;
+  }
+
+  .quote-mark-left {
+    vertical-align: -1rem;
+  }
+
+  .quote-wrapper {
+    margin-bottom: 9.8rem;
+  }
+
+  /* Recommendations */
+  .section-header {
+    font-size: 2rem;
+  }
+
+  .herbal-img {
+    width: 90%;
+  }
+
+  .grid {
+    gap: 3.2rem;
+  }
+
+  .herbal-text {
+    letter-spacing: 0.25rem;
+  }
+
+  /* Roots */
+
+  .roots-container {
+    transform: translate(12%, -180%);
+  }
+
+  /* Apotheke */
+  .apotheke-container {
+    transform: translate(12%, -116%);
+  }
+
+  /* Footer */
+  .grid--footer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .logo-col {
+    grid-column: span 2;
+  }
+
+  .nav-col--3 {
+    grid-column: 1;
+  }
+
+  .nav-col--4 {
+    grid-column: 2;
+  }
+
+  .footer-logo img {
+    width: 30%;
   }
 }
