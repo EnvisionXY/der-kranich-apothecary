@@ -16,6 +16,11 @@ Instead, 1rem = 1em = 16px */
     font-size: 56.25%; /* 16px * 0.5625 = 9px */
   }
 
+  /* Mobile dropdown menu  */
+  .main-nav--mobile {
+    display: none;
+  }
+
   .footer {
     padding: 8rem;
   }
@@ -41,6 +46,10 @@ Instead, 1rem = 1em = 16px */
   .divider {
     width: 20rem;
   }
+
+  .col-box::after {
+    display: none;
+  }
 }
 
 /**********************/
@@ -48,6 +57,10 @@ Instead, 1rem = 1em = 16px */
 /**********************/
 @media (max-width: 44em) {
   /* General */
+
+  .body {
+    overflow: hidden;
+  }
   .header {
     margin-top: 2.4rem;
   }
@@ -299,8 +312,20 @@ Instead, 1rem = 1em = 16px */
     letter-spacing: 0.5px;
   }
 
+  .roots {
+    display: flex;
+    justify-content: center; /* Center the .roots-container horizontally */
+    align-items: center; /* Center the .roots-container vertically */
+    position: relative; /* Required for absolute positioning */
+  }
+
   .roots-container {
-    transform: translate(31%, -180%);
+    position: absolute; /* Position relative to the .roots parent */
+    top: 39%; /* Place the top of the .roots-container at the vertical center */
+    transform: translateY(-50%); /* Center the .roots-container vertically */
+    background-color: #fff;
+    width: 40rem;
+    opacity: 0.97;
   }
 
   .col-box img {
@@ -313,11 +338,28 @@ Instead, 1rem = 1em = 16px */
     object-fit: cover;
   }
 
-  .apotheke-container {
-    transform: translate(31%, -116%);
+  .apotheke {
+    display: flex;
+    justify-content: center; /* Center the .apotheke-container horizontally */
+    align-items: center; /* Center the .apotheke-container vertically */
+    position: relative; /* Required for absolute positioning */
   }
+
+  .apotheke-container {
+    position: absolute; /* Position relative to the .apotheke parent */
+    top: 50%; /* Place the top of the .apotheke-container at the vertical center */
+    transform: translateY(-50%); /* Center the .apotheke-container vertically */
+    background-color: #fff;
+    width: 40rem;
+    opacity: 0.97;
+  }
+
   .section-header {
     text-align: center;
+    line-height: 1.5;
+  }
+
+  .footer-link--a {
     line-height: 1.5;
   }
 }
@@ -400,7 +442,7 @@ Instead, 1rem = 1em = 16px */
 
   .slide-text--3 {
     align-items: flex-end;
-    top: 2.5rem;
+    top: 4rem;
     right: 13px;
   }
 
@@ -440,17 +482,6 @@ Instead, 1rem = 1em = 16px */
 
   .herbal-text {
     letter-spacing: 0.25rem;
-  }
-
-  /* Roots */
-
-  .roots-container {
-    transform: translate(12%, -180%);
-  }
-
-  /* Apotheke */
-  .apotheke-container {
-    transform: translate(12%, -116%);
   }
 
   /* Footer */

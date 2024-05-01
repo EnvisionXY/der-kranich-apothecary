@@ -75,34 +75,63 @@ dropdowns.forEach(dropdown => {
 
 const herbalGradients = document.querySelectorAll('.herbal-gradient');
 
-herbalGradients.forEach(herbalGradient => {
-  // Add event listener for mouseenter
-  herbalGradient.addEventListener('mouseenter', function () {
-    // Select the corresponding sibling image
-    const herbalImg = this.nextElementSibling;
-    // Apply the effect to the corresponding image
-    herbalImg.style.transform = 'scale(1.03)';
-    herbalImg.style.filter = 'brightness(0.8)';
-  });
+// Add hover effect
 
-  // Add event listener for mouseleave
-  herbalGradient.addEventListener('mouseleave', function () {
-    // Select the corresponding sibling image
-    const herbalImg = this.nextElementSibling;
-    // Reset the transform of the corresponding image
-    herbalImg.style.transform = 'scale(1)';
-    herbalImg.style.filter = 'brightness(1)';
+function addHoverEffect() {
+  herbalGradients.forEach(herbalGradient => {
+    // Add event listener for mouseenter
+    herbalGradient.addEventListener('mouseenter', function () {
+      // Select the corresponding sibling image
+      const herbalImg = this.nextElementSibling;
+      // Apply the effect to the corresponding image
+      herbalImg.style.transform = 'scale(1.03)';
+      herbalImg.style.filter = 'brightness(0.8)';
+    });
+
+    // Add event listener for mouseleave
+    herbalGradient.addEventListener('mouseleave', function () {
+      // Select the corresponding sibling image
+      const herbalImg = this.nextElementSibling;
+      // Reset the transform of the corresponding image
+      herbalImg.style.transform = 'scale(1)';
+      herbalImg.style.filter = 'brightness(1)';
+    });
   });
-});
+}
+
+// Remove hover effect
+
+function removeHoverEffect() {
+  herbalGradients.forEach(herbalGradient => {
+    // Remove event listeners for mouserenter and mouseleave
+    herbalGradient.removeEventListener('mouseenter', enterHandler);
+    herbalGradient.removeEventListener('mouseleave', enterHandler);
+  });
+}
+
+// Check screen width and apply/remove hover effect
+function checkScreenWidth() {
+  if (window.matchMedia('(max-width: 74em').matches) {
+    removeHover();
+  } else {
+    addHoverEffect();
+  }
+}
+
+// Initial check screen width
+checkScreenWidth();
+
+// Listen for window resize events
+window.addEventListener('resize', checkScreenWidth);
 
 // Quick View Link
 
-const colBoxes = document.querySelectorAll('.col-box');
-colBoxes.forEach(colBoxes => {
-  colBoxes.addEventListener('click', function () {
-    window.open('https://www.google.com', '_blank');
-  });
-});
+// const colBoxes = document.querySelectorAll('.col-box');
+// colBoxes.forEach(colBoxes => {
+//   colBoxes.addEventListener('click', function () {
+//     window.open('https://www.google.com', '_blank');
+//   });
+// });
 
 // Email Disclaimer
 

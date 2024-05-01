@@ -8,12 +8,16 @@ const mainNavMobile = document.querySelector('.main-nav--mobile');
 const header = document.querySelector('.header');
 const bar = document.querySelector('.announcement-bar');
 const swiperBlur = document.querySelector('.swiper-blur');
+const quote = document.querySelector('.quote');
+const reccomendations = document.querySelector('.recommendations');
 
 openDropdown.addEventListener('click', () => {
   mainNavMobile.classList.add('show-menu');
   header.classList.add('blur');
   bar.classList.add('blur');
   swiperBlur.classList.add('blur');
+  quote.classList.add('blur');
+  reccomendations.classList.add('blur');
   disableScroll();
 });
 
@@ -22,6 +26,8 @@ closeDropdown.addEventListener('click', () => {
   header.classList.remove('blur');
   bar.classList.remove('blur');
   swiperBlur.classList.remove('blur');
+  quote.classList.remove('blur');
+  reccomendations.classList.remove('blur');
   enableScroll();
 });
 
