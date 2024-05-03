@@ -234,7 +234,8 @@
       <div class="toolbar">
         <div class="container">
           <div class="toolbar-item">
-            <div class="dropdown">
+            <div class="dropdown" id="language-dropdown">
+              <!-- Added ID here -->
               <div class="select">
                 <span class="selected">Deutsch</span>
                 <ion-icon
@@ -243,9 +244,9 @@
                 ></ion-icon>
               </div>
               <ul class="menu">
-                <li>English</li>
-                <li>Español</li>
-                <li>Deutsch</li>
+                <li value="en">English</li>
+                <li value="es">Español</li>
+                <li value="de">Deutsch</li>
               </ul>
             </div>
             <div class="dropdown">
@@ -265,7 +266,8 @@
           </div>
         </div>
       </div>
-      <div class="container">
+
+      <div class="header-box container">
         <div class="main-header">
           <div class="btn-mobile-nav">
             <ion-icon class="icon-mobile-open" name="menu-outline"></ion-icon>
@@ -886,10 +888,11 @@
     ></script>
     <script src="./js/script.js"></script>
     <script src="./js/mobile-dropdown.js"></script>
+    <script src="./js/multi-language.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <script>
+    <!-- <script>
       var annSwiper = new Swiper('.annSwiper', {
         centeredSlides: true,
         loop: true,
@@ -917,6 +920,6 @@
           prevEl: '.swiper-button-prev',
         },
       });
-    </script>
+    </script> -->
   </body>
 </html>

@@ -53,6 +53,10 @@
   filter: saturate(0.6) brightness(0.9);
 }
 
+.product-img--2 {
+  max-width: 1600px;
+}
+
 .slide-text--1 {
   top: 21.5rem;
   left: 8rem;

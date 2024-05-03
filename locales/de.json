@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "description": "Der Kranich - Apotheke! Dies ist eine Website, auf der wir unser Angebot an natürlichen Gesundheits- und Wellnessprodukten vorstellen, die von Tradition und Natur inspiriert sind."
+  },
+  "mobile-nav": {
+    "shop": "Shop",
+    "aromatherapy": "Aromatherapie",
+    "herbal_remedies": "Kräuterheilmittel",
+    "categories": "Kategorien",
+    "pharmacy": "Apotheke",
+    "locations": "Orte",
+    "login": "Einloggen"
+  },
+  "main-nav": {
+    "shop": "SHOP",
+    "about_us": "ÜBER UNS",
+    "services": "SERVICES"
+  },
+  "main-logo": {
+    "name": "Apothecary",
+    "text": "Est. 1913"
+  },
+  "toolbar": {
+    "language": "Deutsch",
+    "currency": "EUR"
+  },
+
+  "footer": {
+    "newsletter": {
+      "title": "Newsletter:",
+      "link_text": "Jetzt anmelden und 10 Euro Rabatt sichern!"
+    },
+    "new_arrivals": {
+      "title": "FRISCH EINGETROFFEN:",
+      "link_text": "Kaltgepresstes Walnussöl"
+    },
+    "spring_freshness": {
+      "title": "FRÜHLINGSFRISCHE:",
+      "link_text": "Erfrischen Sie sich mit unserem Minze-Spray!"
+    },
+    "logo": {
+      "image": "./img/Kranich/Kranich_logo02.webp",
+      "alt": "white logo of der Kranich",
+      "title": "Der Kranich",
+      "subtitle": "Apothecary",
+      "established": "Est. 1913"
+    },
+    "social_links": {
+      "instagram": "#",
+      "facebook": "#",
+      "youtube": "#",
+      "linkedin": "#"
+    },
+    "sections": [
+      {
+        "title": "Der Kranich",
+        "links": [
+          { "text": "Blog", "url": "#" },
+          { "text": "Shop", "url": "#" },
+          { "text": "Apotheke", "url": "#" },
+          { "text": "Nachhaltigkeit", "url": "#" }
+        ]
+      },
+      {
+        "title": "Costumer care",
+        "links": [
+          { "text": "FAQ", "url": "#" },
+          { "text": "Newsletter", "url": "#" },
+          { "text": "Kontakt", "url": "#" },
+          { "text": "Versand & Retour", "url": "#" },
+          { "text": "Bonusprogramm", "url": "#" },
+          { "text": "Empfehlungsprogramm", "url": "#" }
+        ]
+      },
+      {
+        "title": "Other",
+        "links": [
+          { "text": "Partner", "url": "#" },
+          { "text": "Store Partner werden", "url": "#" },
+          { "text": "Ambassador Programm", "url": "#" },
+          { "text": "Karriere", "url": "#" },
+          { "text": "Presse", "url": "#" }
+        ]
+      },
+      {
+        "title": "Business",
+        "links": [
+          { "text": "Allgemeine Geschäftsbedingungen", "url": "#" },
+          { "text": "Rückerstattungsrichtlinie", "url": "#" },
+          { "text": "Datenschutz", "url": "#" },
+          { "text": "Impressum", "url": "#" },
+          { "text": "Cookie-Einstellungen", "url": "#" }
+        ]
+      }
+    ],
+    "copyright": "Copyright &copy; <span class=\"year\">2024</span> by Der Kranich GmbH. All rights reserved."
+  },
+  "search_placeholder": "Suche",
+  "announcement_bar": {
+    "newsletter": {
+      "text": "Newsletter:",
+      "link": "Jetzt anmelden und 10 Euro Rabatt sichern!"
+    },
+    "new_arrivals": {
+      "text": "FRISCH EINGETROFFEN:",
+      "link": "Kaltgepresstes Walnussöl"
+    },
+    "spring_freshness": {
+      "text": "FRÜHLINGSFRISCHE:",
+      "link": "Erfrischen Sie sich mit unserem Minze-Spray!"
+    }
+  },
+  "product_swiper": {
+    "slide_1": {
+      "title": "Beschwerdenminderung mit Sanddornöl",
+      "subtitle": "Allergiezeit",
+      "link_text": "Jetzt entdecken"
+    },
+    "slide_2": {
+      "title": "Frühlings-Highlights",
+      "subtitle": "Der Kranich Bestseller",
+      "link_text": "Mehr erfahren"
+    },
+    "slide_3": {
+      "title": "Natürliche Gesichtspflege aus der Kräuterküche",
+      "subtitle": "Naturkosmetik inspiriert von der Natur",
+      "link_text": "Jetzt entdecken"
+    }
+  },
+  "quote": {
+    "text": "Erinnerung ist nicht das Verweilen in der Vergangenheit, sondern das Schmieden neuer Pfade für die Zukunft.",
+    "author": "Marceline Dubois"
+  },
+  "recommendations": {
+    "header": "Unsere persönlichen Favoriten",
+    "items": [
+      {
+        "image": "./img/recommendations/Herbal-Img-01-530.webp",
+        "alt": "bottle of herbal medicine",
+        "text": "Pflanzliche Öle"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-02.webp",
+        "alt": "bottle of herbal medicine",
+        "text": "Herbal Essences"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-03.webp",
+        "alt": "herbal medicine tea",
+        "text": "Entgiftung"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-04.webp",
+        "alt": "bottles of herbal medicine",
+        "text": "Meditation"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-05.webp",
+        "alt": "bottle of herbal medicine",
+        "text": "Seelenbalsam"
+      }
+    ]
+  },
+  "roots": {
+    "title": "Von den Wurzeln zum Ziel",
+    "subtitle": "Unser Leitgedanke",
+    "text": "Nachhaltigkeit, Umweltschutz und faires Handeln sind uns ein Anliegen. Wir wollen nicht nur an Traditionen festhalten, sondern mit einem neuen Ansatz etwas zum Besseren bewegen.",
+    "link_text": "Mehr erfahren"
+  },
+  "collection": {
+    "title": "Entspannung und Heilung",
+    "button_text": "Alle",
+    "products": [
+      {
+        "label": "Der Storch",
+        "title": "Gleichgewicht-Kapseln",
+        "description": "für hormonelles Gleichgewicht",
+        "price": "&euro; 24,90",
+        "image": "./img/Bottles/Gleichgewicht-Kapseln.png"
+      },
+      {
+        "label": "Der Kranich",
+        "title": "Rosmarin Hydrolat",
+        "description": "100% natürliches Hydrolat",
+        "price": "&euro; 14,90",
+        "image": "./img/Bottles/Rosmarin Hydrolat.png"
+      },
+      {
+        "label": "Der Kranich",
+        "title": "Kräuteressenz Harmonie",
+        "description": "Traditionelle Kräuterrezeptur",
+        "price": "&euro; 15,90",
+        "image": "./img/Bottles/Kräuteressenz Harmonie.png"
+      },
+      {
+        "label": "Der Kranich",
+        "title": "Zitronenmelisse Bio",
+        "description": "100% naturrein im 20ml-Violettglas",
+        "price": "&euro; 15,90",
+        "image": "./img/Bottles/Zitronenmelisse Bio.png"
+      }
+    ]
+  },
+  "apotheke": {
+    "title": "Ein Naturheilkunde Juwel",
+    "subtitle": "Der Kranich",
+    "text": "Entdecken Sie die Faszination von \"Der Kranich\" - einer Apotheke, die nicht nur Geschichte atmet, sondern auch mit zeitgemäßem Komfort und innovativen Lösungen überzeugt. Erfahren Sie, wie wir Tradition und Moderne vereinen, um Ihre Gesundheit und Ihr Wohlbefinden zu fördern.",
+    "link_text": "Mehr erfahren"
+  },
+  "blog": {
+    "title": "Blog Beiträge und Hintergrund Stories",
+    "posts": [
+      {
+        "image": "./img/blog/Blog-01.webp",
+        "title": "Sport & Ernährung: Die Schlüssel zur Spitzenleistung",
+        "excerpt": "Für Sportler ist nicht nur die richtige Ausrüstung entscheidend, sondern auch eine ausgewogene Ernährung.",
+        "link_text": "mehr"
+      },
+      {
+        "image": "./img/blog/Blog-02.webp",
+        "title": "Natürliche Schönheit: Hautpflege mit Naturkosmetik",
+        "excerpt": "In einer Welt voller chemischer Inhaltsstoffe und künstlicher Produkte sehnen sich viele Menschen nach natürlicher.",
+        "link_text": "mehr"
+      },
+      {
+        "image": "./img/blog/Blog-03.webp",
+        "title": "Namasté mit Aroma-Yoga: Entspannung pur",
+        "excerpt": "In der heutigen schnelllebigen Welt ist es wichtig, Zeit für Entspannung und Ausgleich zu finden.",
+        "link_text": "mehr"
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Newsletter abonnieren und 10&euro; Gutschein erhalten!",
+    "form_placeholder": "Email Adresse",
+    "subscribe_button_text": "Subscribe",
+    "disclaimer": {
+      "text": "Mit Setzen des Häkchens erkläre ich mich einverstanden, dass die von mir angegebenen Daten von Der Kranich dazu verwendet werden, um mit mir in Kontakt zu bleiben und mir nützliche Updates und Marketing-Informationen zu übermitteln. Diese Einwilligung kann jederzeit mit einer Nachricht an office@der-kranich.eu widerrufen werden. Weitere Informationen können Sie gerne der \"Datenschutzerklärung\" entnehmen.",
+      "privacy_policy_link_text": "Datenschutzerklärung"
+    }
+  },
+  "footer": {
+    "logo": {
+      "image": "./img/Kranich/Kranich_logo02.webp",
+      "alt": "white logo of der Kranich",
+      "title": "Der Kranich",
+      "subtitle": "Apothecary",
+      "established": "Est. 1913"
+    },
+    "social_links": {
+      "instagram": "#",
+      "facebook": "#",
+      "youtube": "#",
+      "linkedin": "#"
+    },
+    "sections": [
+      {
+        "title": "Der Kranich",
+        "links": [
+          { "text": "Blog", "url": "#" },
+          { "text": "Shop", "url": "#" },
+          { "text": "Apotheke", "url": "#" },
+          { "text": "Nachhaltigkeit", "url": "#" }
+        ]
+      },
+      {
+        "title": "Costumer care",
+        "links": [
+          { "text": "FAQ", "url": "#" },
+          { "text": "Newsletter", "url": "#" },
+          { "text": "Kontakt", "url": "#" },
+          { "text": "Versand & Retour", "url": "#" },
+          { "text": "Bonusprogramm", "url": "#" },
+          { "text": "Empfehlungsprogramm", "url": "#" }
+        ]
+      },
+      {
+        "title": "Other",
+        "links": [
+          { "text": "Partner", "url": "#" },
+          { "text": "Store Partner werden", "url": "#" },
+          { "text": "Ambassador Programm", "url": "#" },
+          { "text": "Karriere", "url": "#" },
+          { "text": "Presse", "url": "#" }
+        ]
+      },
+      {
+        "title": "Business",
+        "links": [
+          { "text": "Allgemeine Geschäftsbedingungen", "url": "#" },
+          { "text": "Rückerstattungsrichtlinie", "url": "#" },
+          { "text": "Datenschutz", "url": "#" },
+          { "text": "Impressum", "url": "#" },
+          { "text": "Cookie-Einstellungen", "url": "#" }
+        ]
+      }
+    ],
+    "copyright": "Copyright &copy; <span class=\"year\">2024</span> by Der Kranich GmbH. All rights reserved."
+  }
+}

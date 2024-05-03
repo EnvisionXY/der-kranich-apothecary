@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "description": "El Kranich - ¡Farmacia! Este es un sitio web donde presentamos nuestra gama de productos naturales de salud y bienestar inspirados en la tradición y la naturaleza."
+  },
+  "mobile-nav": {
+    "shop": "Tienda",
+    "aromatherapy": "Aromaterapia",
+    "herbal_remedies": "Remedios Herbales",
+    "categories": "Categorías",
+    "pharmacy": "Farmacia",
+    "locations": "Ubicaciones",
+    "login": "Iniciar sesión"
+  },
+  "main-nav": {
+    "shop": "TIENDA",
+    "about_us": "SOBRE NOSOTROS",
+    "services": "SERVICIOS"
+  },
+  "main-logo": {
+    "name": "Botica",
+    "text": "Est. 1913"
+  },
+  "toolbar": {
+    "language": "Español",
+    "currency": "EUR"
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Boletín:",
+      "link_text": "¡Suscríbete ahora y obtén un descuento de 10 euros!"
+    },
+    "new_arrivals": {
+      "title": "NUEVAS LLEGADAS:",
+      "link_text": "Aceite de Nuez Prensado en Frío"
+    },
+    "spring_freshness": {
+      "title": "FRESCURA DE PRIMAVERA:",
+      "link_text": "¡Refresca tu día con nuestro Spray de Menta!"
+    }
+  },
+  "search_placeholder": "Buscar",
+  "announcement_bar": {
+    "newsletter": {
+      "text": "Boletín:",
+      "link": "¡Suscríbete ahora y obtén un descuento de 10 euros!"
+    },
+    "new_arrivals": {
+      "text": "NUEVAS LLEGADAS:",
+      "link": "Aceite de Nuez Prensado en Frío"
+    },
+    "spring_freshness": {
+      "text": "FRESCURA DE PRIMAVERA:",
+      "link": "¡Refresca tu día con nuestro Spray de Menta!"
+    }
+  },
+  "product_swiper": {
+    "slide_1": {
+      "title": "Alivio con Aceite de Espino Amarillo",
+      "subtitle": "Temporada de Alergias",
+      "link_text": "Descubre ahora"
+    },
+    "slide_2": {
+      "title": "Destacados de Primavera",
+      "subtitle": "El Bestseller de El Kranich",
+      "link_text": "Aprende más"
+    },
+    "slide_3": {
+      "title": "Cuidado Facial Natural de la Cocina de Hierbas",
+      "subtitle": "Cosmética Natural Inspirada en la Naturaleza",
+      "link_text": "Descubre ahora"
+    }
+  },
+  "quote": {
+    "text": "El recuerdo no es quedarse en el pasado, sino forjar nuevos caminos para el futuro.",
+    "author": "Marceline Dubois"
+  },
+  "recommendations": {
+    "header": "Nuestros Favoritos Personales",
+    "items": [
+      {
+        "image": "./img/recommendations/Herbal-Img-01-530.webp",
+        "alt": "botella de medicina herbal",
+        "text": "Aceites Vegetales"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-02.webp",
+        "alt": "botella de medicina herbal",
+        "text": "Esencias Herbales"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-03.webp",
+        "alt": "té de medicina herbal",
+        "text": "Desintoxicación"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-04.webp",
+        "alt": "botellas de medicina herbal",
+        "text": "Meditación"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-05.webp",
+        "alt": "botella de medicina herbal",
+        "text": "Bálsamo para el Alma"
+      }
+    ]
+  },
+  "roots": {
+    "title": "De las Raíces al Objetivo",
+    "subtitle": "Nuestro Principio Guía",
+    "text": "La sostenibilidad, la protección del medio ambiente y el comercio justo son importantes para nosotros. No queremos aferrarnos solo a las tradiciones, sino que con un nuevo enfoque, queremos hacer las cosas mejor.",
+    "link_text": "Aprende más"
+  },
+  "collection": {
+    "title": "Relajación y Sanación",
+    "button_text": "Todos",
+    "products": [
+      {
+        "label": "La Cigüeña",
+        "title": "Cápsulas de Equilibrio",
+        "description": "para el equilibrio hormonal",
+        "price": "&euro; 24,90",
+        "image": "./img/Bottles/Capsulas-de-Equilibrio.png"
+      },
+      {
+        "label": "El Kranich",
+        "title": "Hidrolato de Romero",
+        "description": "hidrolato 100% natural",
+        "price": "&euro; 14,90",
+        "image": "./img/Bottles/Hidrolato-de-Romero.png"
+      },
+      {
+        "label": "El Kranich",
+        "title": "Esencia Herbal Armonía",
+        "description": "receta herbal tradicional",
+        "price": "&euro; 15,90",
+        "image": "./img/Bottles/Esencia-Herbal-Armonia.png"
+      },
+      {
+        "label": "El Kranich",
+        "title": "Melisa Orgánica",
+        "description": "100% natural en vidrio violeta de 20 ml",
+        "price": "&euro; 15,90",
+        "image": "./img/Bottles/Melisa-Organica.png"
+      }
+    ]
+  },
+  "apotheke": {
+    "title": "Una Joya de la Medicina Natural",
+    "subtitle": "El Kranich",
+    "text": "Descubre la fascinación de \"El Kranich\" - una farmacia que no solo respira historia sino que también convence con comodidades contemporáneas y soluciones innovadoras. Aprende cómo combinamos la tradición y la modernidad para promover tu salud y bienestar.",
+    "link_text": "Aprende más"
+  },
+  "blog": {
+    "title": "Publicaciones del Blog y Historias de Fondo",
+    "posts": [
+      {
+        "image": "./img/blog/Blog-01.webp",
+        "title": "Deporte y Nutrición: Las Claves del Rendimiento",
+        "excerpt": "Para los deportistas, no solo es crucial el equipo adecuado, sino también una dieta equilibrada.",
+        "link_text": "más"
+      },
+      {
+        "image": "./img/blog/Blog-02.webp",
+        "title": "Belleza Natural: Cuidado de la Piel con Cosmética Natural",
+        "excerpt": "En un mundo lleno de ingredientes químicos y productos artificiales, muchas personas anhelan lo natural.",
+        "link_text": "más"
+      },
+      {
+        "image": "./img/blog/Blog-03.webp",
+        "title": "Namasté con Aroma-Yoga: Relajación Total",
+        "excerpt": "En el mundo actual de ritmo acelerado, es importante encontrar tiempo para la relajación y el equilibrio.",
+        "link_text": "más"
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "¡Suscríbete al Boletín y Recibe un Cupón de 10&euro;!",
+    "form_placeholder": "Dirección de correo electrónico",
+    "subscribe_button_text": "Suscribirse",
+    "disclaimer": {
+      "text": "Al marcar esta casilla, acepto que los datos que proporcioné puedan ser utilizados por El Kranich para mantenerme informado y enviarme actualizaciones útiles e información de marketing. Este consentimiento puede ser revocado en cualquier momento enviando un mensaje a office@der-kranich.eu. Para obtener más información, puede consultar la \"Política de Privacidad\".",
+      "privacy_policy_link_text": "Política de Privacidad"
+    }
+  },
+  "footer": {
+    "logo": {
+      "image": "./img/Kranich/Kranich_logo02.webp",
+      "alt": "logo blanco de El Kranich",
+      "title": "El Kranich",
+      "subtitle": "Botica",
+      "established": "Est. 1913"
+    },
+    "social_links": {
+      "instagram": "#",
+      "facebook": "#",
+      "youtube": "#",
+      "linkedin": "#"
+    },
+    "sections": [
+      {
+        "title": "El Kranich",
+        "links": [
+          { "text": "Blog", "url": "#" },
+          { "text": "Tienda", "url": "#" },
+          { "text": "Farmacia", "url": "#" },
+          { "text": "Sostenibilidad", "url": "#" }
+        ]
+      },
+      {
+        "title": "Atención al Cliente",
+        "links": [
+          { "text": "Preguntas Frecuentes", "url": "#" },
+          { "text": "Boletín", "url": "#" },
+          { "text": "Contacto", "url": "#" },
+          { "text": "Envío y Devoluciones", "url": "#" },
+          { "text": "Programa de Bonificación", "url": "#" },
+          { "text": "Programa de Referidos", "url": "#" }
+        ]
+      },
+      {
+        "title": "Otros",
+        "links": [
+          { "text": "Socios", "url": "#" },
+          { "text": "Conviértete en Socio de Tienda", "url": "#" },
+          { "text": "Programa de Embajadores", "url": "#" },
+          { "text": "Carrera", "url": "#" },
+          { "text": "Prensa", "url": "#" }
+        ]
+      },
+      {
+        "title": "Negocio",
+        "links": [
+          { "text": "Términos de Servicio", "url": "#" },
+          { "text": "Política de Reembolso", "url": "#" },
+          { "text": "Política de Privacidad", "url": "#" },
+          { "text": "Aviso Legal", "url": "#" },
+          { "text": "Configuración de Cookies", "url": "#" }
+        ]
+      }
+    ],
+    "copyright": "Copyright &copy; <span class=\"year\">2024</span> por Der Kranich GmbH. Todos los derechos reservados."
+  }
+}

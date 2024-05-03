@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "description": "Der Kranich - Pharmacy! This is a website where we showcase our range of natural health and wellness products inspired by tradition and nature."
+  },
+  "mobile-nav": {
+    "shop": "Shop",
+    "aromatherapy": "Aromatherapy",
+    "herbal_remedies": "Herbal Remedies",
+    "categories": "Categories",
+    "pharmacy": "Pharmacy",
+    "locations": "Locations",
+    "login": "Login"
+  },
+  "main-nav": {
+    "shop": "SHOP",
+    "about_us": "ABOUT US",
+    "services": "SERVICES"
+  },
+  "main-logo": {
+    "name": "Apothecary",
+    "text": "Est. 1913"
+  },
+  "toolbar": {
+    "language": "English",
+    "currency": "EUR"
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Newsletter:",
+      "link_text": "Subscribe now and get 10 Euro discount!"
+    },
+    "new_arrivals": {
+      "title": "NEW ARRIVALS:",
+      "link_text": "Cold-pressed Walnut Oil"
+    },
+    "spring_freshness": {
+      "title": "SPRING FRESHNESS:",
+      "link_text": "Refresh yourself with our Mint Spray!"
+    }
+  },
+  "search_placeholder": "Search",
+  "announcement_bar": {
+    "newsletter": {
+      "text": "Newsletter:",
+      "link": "Subscribe now and get 10 Euro discount!"
+    },
+    "new_arrivals": {
+      "text": "NEW ARRIVALS:",
+      "link": "Cold-pressed Walnut Oil"
+    },
+    "spring_freshness": {
+      "text": "SPRING FRESHNESS:",
+      "link": "Refresh yourself with our Mint Spray!"
+    }
+  },
+  "product_swiper": {
+    "slide_1": {
+      "title": "Relief with Sea Buckthorn Oil",
+      "subtitle": "Allergy Season",
+      "link_text": "Discover now"
+    },
+    "slide_2": {
+      "title": "Spring Highlights",
+      "subtitle": "The Kranich Bestseller",
+      "link_text": "Learn more"
+    },
+    "slide_3": {
+      "title": "Natural Facial Care from the Herbal Kitchen",
+      "subtitle": "Natural Cosmetics Inspired by Nature",
+      "link_text": "Discover now"
+    }
+  },
+  "quote": {
+    "text": "Memory is not dwelling on the past, but forging new paths for the future.",
+    "author": "Marceline Dubois"
+  },
+  "recommendations": {
+    "header": "Our Personal Favorites",
+    "items": [
+      {
+        "image": "./img/recommendations/Herbal-Img-01-530.webp",
+        "alt": "bottle of herbal medicine",
+        "text": "Plant Oils"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-02.webp",
+        "alt": "bottle of herbal medicine",
+        "text": "Herbal Essences"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-03.webp",
+        "alt": "herbal medicine tea",
+        "text": "Detoxification"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-04.webp",
+        "alt": "bottles of herbal medicine",
+        "text": "Meditation"
+      },
+      {
+        "image": "./img/recommendations/Herbal-Img-05.webp",
+        "alt": "bottle of herbal medicine",
+        "text": "Soul Balm"
+      }
+    ]
+  },
+  "roots": {
+    "title": "From Roots to Goal",
+    "subtitle": "Our Guiding Principle",
+    "text": "Sustainability, environmental protection, and fair trade are important to us. We don't just want to cling to traditions, but with a new approach, we want to make things better.",
+    "link_text": "Learn more"
+  },
+  "collection": {
+    "title": "Relaxation and Healing",
+    "button_text": "All",
+    "products": [
+      {
+        "label": "The Stork",
+        "title": "Balance Capsules",
+        "description": "for hormonal balance",
+        "price": "&euro; 24.90",
+        "image": "./img/Bottles/Balance-Capsules.png"
+      },
+      {
+        "label": "The Crane",
+        "title": "Rosemary Hydrosol",
+        "description": "100% natural hydrosol",
+        "price": "&euro; 14.90",
+        "image": "./img/Bottles/Rosemary-Hydrosol.png"
+      },
+      {
+        "label": "The Crane",
+        "title": "Herbal Essence Harmony",
+        "description": "Traditional herbal recipe",
+        "price": "&euro; 15.90",
+        "image": "./img/Bottles/Herbal-Essence-Harmony.png"
+      },
+      {
+        "label": "The Crane",
+        "title": "Organic Lemon Balm",
+        "description": "100% natural in 20ml violet glass",
+        "price": "&euro; 15.90",
+        "image": "./img/Bottles/Organic-Lemon-Balm.png"
+      }
+    ]
+  },
+  "apotheke": {
+    "title": "A Natural Medicine Gem",
+    "subtitle": "The Crane",
+    "text": "Discover the fascination of \"The Crane\" - a pharmacy that not only exudes history but also convinces with contemporary comfort and innovative solutions. Learn how we combine tradition and modernity to promote your health and well-being.",
+    "link_text": "Learn more"
+  },
+  "blog": {
+    "title": "Blog Posts and Background Stories",
+    "posts": [
+      {
+        "image": "./img/blog/Blog-01.webp",
+        "title": "Sports & Nutrition: The Keys to Peak Performance",
+        "excerpt": "For athletes, it's not just about the right equipment, but also about a balanced diet.",
+        "link_text": "more"
+      },
+      {
+        "image": "./img/blog/Blog-02.webp",
+        "title": "Natural Beauty: Skincare with Natural Cosmetics",
+        "excerpt": "In a world full of chemical ingredients and artificial products, many people long for natural ones.",
+        "link_text": "more"
+      },
+      {
+        "image": "./img/blog/Blog-03.webp",
+        "title": "Namaste with Aroma Yoga: Pure Relaxation",
+        "excerpt": "In today's fast-paced world, it's important to find time for relaxation and balance.",
+        "link_text": "more"
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Subscribe to Newsletter and Get a &euro;10 Voucher!",
+    "form_placeholder": "Email Address",
+    "subscribe_button_text": "Subscribe",
+    "disclaimer": {
+      "text": "By checking this box, I agree that the data I provided may be used by Der Kranich to stay in touch with me and to send me useful updates and marketing information. This consent can be revoked at any time by sending a message to office@der-kranich.eu. For more information, you can refer to the \"Privacy Policy\".",
+      "privacy_policy_link_text": "Privacy Policy"
+    }
+  },
+  "footer": {
+    "logo": {
+      "image": "./img/Kranich/Kranich_logo02.webp",
+      "alt": "white logo of the Kranich",
+      "title": "The Crane",
+      "subtitle": "Apothecary",
+      "established": "Est. 1913"
+    },
+    "social_links": {
+      "instagram": "#",
+      "facebook": "#",
+      "youtube": "#",
+      "linkedin": "#"
+    },
+    "sections": [
+      {
+        "title": "The Crane",
+        "links": [
+          { "text": "Blog", "url": "#" },
+          { "text": "Shop", "url": "#" },
+          { "text": "Pharmacy", "url": "#" },
+          { "text": "Sustainability", "url": "#" }
+        ]
+      },
+      {
+        "title": "Customer Care",
+        "links": [
+          { "text": "FAQ", "url": "#" },
+          { "text": "Newsletter", "url": "#" },
+          { "text": "Contact", "url": "#" },
+          { "text": "Shipping & Returns", "url": "#" },
+          { "text": "Bonus Program", "url": "#" },
+          { "text": "Referral Program", "url": "#" }
+        ]
+      },
+      {
+        "title": "Other",
+        "links": [
+          { "text": "Partners", "url": "#" },
+          { "text": "Become a Store Partner", "url": "#" },
+          { "text": "Ambassador Program", "url": "#" },
+          { "text": "Career", "url": "#" },
+          { "text": "Press", "url": "#" }
+        ]
+      },
+      {
+        "title": "Business",
+        "links": [
+          { "text": "Terms of Service", "url": "#" },
+          { "text": "Refund Policy", "url": "#" },
+          { "text": "Privacy Policy", "url": "#" },
+          { "text": "Imprint", "url": "#" },
+          { "text": "Cookie Settings", "url": "#" }
+        ]
+      }
+    ],
+    "copyright": "Copyright &copy; <span class=\"year\">2024</span> by Der Kranich GmbH. All rights reserved."
+  }
+}

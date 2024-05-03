@@ -131,3 +131,19 @@
 .main-search-space label {
   display: none;
 }
+
+/* Sticky Navigation */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  background-color: rgba(255, 255, 255, 0.938);
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.kranich-sticky {
+  max-width: 15%;
+}
