@@ -58,8 +58,6 @@ document.addEventListener('click', function (event) {
         translateBlogContent(selectedLanguage);
         // Translate announcement bar
         translateSlidesContent(selectedLanguage);
-        // Translate roots section
-        translateRoots(selectedLanguage);
       })
       .catch(error => {
         console.error(
@@ -154,25 +152,6 @@ function translateQuoteSection(selectedLanguage) {
     quoteText.innerHTML = quoteTextSpanish;
   } else if (selectedLanguage === 'de') {
     quoteText.innerHTML = quoteTextGerman;
-  }
-}
-
-// Function to translate the roots container
-
-const rootsGerman = `<div class="roots-box"><div class="roots-box--subheader common-text uppercase-text">Unser Leitgedanke</div><div class="roots-box--header uppercase-text">Von den Wurzeln zum Ziel</div><div class="roots-box--text">Nachhaltigkeit, Umweltschutz und faires Handeln sind uns ein Anliegen. Wir wollen nicht nur an Traditionen festhalten, sondern mit einem neuen Ansatz etwas zum Besseren bewegen.</div><a class="roots-box--link uppercase-text common-text" href="#">Mehr erfahren</a></div>`;
-
-const rootsEnglish = `<div class="roots-box"><div class="roots-box--subheader common-text uppercase-text">Our guiding principle</div><div class="roots-box--header uppercase-text">From the roots to the goal</div><div class="roots-box--text">Sustainability, environmental protection and fair trade are important to us. We don't just want to stick to tradition, we want to change things for the better with a new approach.</div><a class="roots-box--link uppercase-text common-text" href="#">Learn more</a></div>`;
-
-const rootsSpanish = `<div class="roots-box"><div class="roots-box--subheader common-text uppercase-text">Nuestro principio</div><div class="roots-box--header uppercase-text">De las raíces a la meta</div><div class="roots-box--text">La sostenibilidad, la protección del medio ambiente y el comercio justo son importantes para nosotros. No solo queremos ceñirnos a la tradición, sino cambiar las cosas para mejor con un nuevo enfoque.</div><a class="roots-box--link uppercase-text common-text" href="#">Más información</a></div>`;
-
-function translateRoots(selectedLanguage) {
-  const roots = document.querySelector('.roots-container');
-  if (selectedLanguage === 'en') {
-    roots.innerHTML = rootsEnglish;
-  } else if (selectedLanguage === 'es') {
-    roots.innerHTML = rootsSpanish;
-  } else if (selectedLanguage === 'de') {
-    roots.innerHTML = rootsGerman;
   }
 }
 
