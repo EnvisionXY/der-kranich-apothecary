@@ -469,7 +469,7 @@
                     <input
                       id="search"
                       type="text"
-                      placeholder="Search"
+                      placeholder="Suchen"
                       name="search"
                       required
                     />
@@ -494,40 +494,31 @@
     <section class="announcement-bar" style="overflow-x: hidden">
       <div class="swiper--1 annSwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
+          <div class="swiper-slide slide1">
             <div class="announcement-slide text-center">
-              <p class="announcement-name" data-translate="newsletter">
-                Newsletter:
-                <a
-                  class="announcement-link"
-                  href="#"
-                  data-translate="jetzt_anmelden"
+              <p class="announcement-name">
+                NEWSLETTER:
+                <a class="announcement-link" href="#"
                   >Jetzt anmelden und 10 Euro Rabatt sichern!</a
                 >
               </p>
             </div>
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide slide2">
             <div class="announcement-slide">
-              <p class="announcement-name" data-translate="frisch_eingetroffen">
+              <p class="announcement-name">
                 FRISCH EINGETROFFEN:
-                <a
-                  class="announcement-link"
-                  href="#"
-                  data-translate="kaltgepresstes_walnussöl"
+                <a class="announcement-link" href="#"
                   >Kaltgepresstes Walnussöl</a
                 >
               </p>
             </div>
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide slide3">
             <div class="announcement-slide">
-              <p class="announcement-name" data-translate="frühlingsfrische">
+              <p class="announcement-name">
                 FRÜHLINGSFRISCHE:
-                <a
-                  class="announcement-link"
-                  href="#"
-                  data-translate="erfrischen"
+                <a class="announcement-link" href="#"
                   >Erfrischen Sie sich mit unserem Minze-Spray!</a
                 >
               </p>
@@ -643,7 +634,7 @@
       </div>
     </section>
 
-    <section class="quote" data-translate="zitat">
+    <section class="quote">
       <div class="container">
         <div class="quote-wrapper">
           <blockquote class="quote-text uppercase-text text-center">
@@ -741,6 +732,33 @@
         </div>
       </div>
     </section>
+
+    <!-- <section class="roots">
+      <div class="roots-img">
+        <img
+          src="./img/roots/green roots.webp"
+          class="majestic tree and roots"
+        />
+      </div>
+      <div class="roots-container">
+        <div class="roots-box">
+          <div class="roots-box--subheader common-text uppercase-text">
+            Unser Leitgedanke
+          </div>
+          <div class="roots-box--header uppercase-text">
+            Von den Wurzeln zum Ziel
+          </div>
+          <div class="roots-box--text">
+            Nachhaltigkeit, Umweltschutz und faires Handeln sind uns ein
+            Anliegen. Wir wollen nicht nur an Traditionen festhalten, sondern
+            mit einem neuen Ansatz etwas zum Besseren bewegen.
+          </div>
+          <a class="roots-box--link uppercase-text common-text" href="#"
+            >Mehr erfahren</a
+          >
+        </div>
+      </div>
+    </section> -->
 
     <section class="roots">
       <div class="roots-img">
@@ -948,15 +966,10 @@
               </div>
               <div class="divider"></div>
               <div class="blog-box--text common-text">
-                <span class="blog-box--content" data-translate="für_sportler">
+                <span class="blog-box--content sportler">
                   Für Sportler ist nicht nur die richtige Ausrüstung
                   entscheidend, sondern auch eine ausgewogene Ernährung und
-                  <a
-                    class="blog-box--more common-text"
-                    href="#"
-                    data-translate="mehr"
-                    >mehr</a
-                  >
+                  <a class="blog-box--more common-text" href="#">mehr</a>
                 </span>
               </div>
             </div>
@@ -970,21 +983,16 @@
             </a>
             <div class="blog-box">
               <div class="blog-box--header text-center">
-                <span class="blog-box-header--span">
+                <span class="blog-box-header--span" data-translate="schönheit">
                   Natürliche Schönheit: Hautpflege mit Naturkosmetik
                 </span>
               </div>
               <div class="divider"></div>
               <div class="blog-box--text common-text">
-                <span class="blog-box--content" data-translate="chemie">
+                <span class="blog-box--content schönheit">
                   In einer Welt voller chemischer Inhaltsstoffe und künstlicher
                   Produkte sehnen sich viele Menschen nach natürlicher
-                  <a
-                    class="blog-box--more common-text"
-                    href="#"
-                    data-translate="mehr_2"
-                    >mehr</a
-                  >
+                  <a class="blog-box--more common-text" href="#">mehr</a>
                 </span>
               </div>
             </div>
@@ -1001,18 +1009,10 @@
               </div>
               <div class="divider"></div>
               <div class="blog-box--text common-text">
-                <span
-                  class="blog-box--content"
-                  data-translate="entspannung_ausgleich"
-                >
+                <span class="blog-box--content namaste">
                   In der heutigen schnelllebigen Welt ist es wichtig, Zeit für
                   Entspannung und Ausgleich zu finden. Eine wunderbare
-                  <a
-                    class="blog-box--more common-text"
-                    href="#"
-                    data-translate="mehr_3"
-                    >mehr</a
-                  >
+                  <a class="blog-box--more common-text" href="#">mehr</a>
                 </span>
               </div>
             </div>
@@ -1284,7 +1284,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- <script>
+    <script>
       var annSwiper = new Swiper('.annSwiper', {
         centeredSlides: true,
         loop: true,
@@ -1312,6 +1312,6 @@
           prevEl: '.swiper-button-prev',
         },
       });
-    </script> -->
+    </script>
   </body>
 </html>
