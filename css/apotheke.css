@@ -3,7 +3,7 @@
 /**********************/
 
 .apotheke {
-  height: 80rem;
+  height: 60rem;
   margin-bottom: 16rem;
   position: relative;
 }
@@ -15,15 +15,17 @@
 
 .apotheke-img img {
   width: 100%;
-  max-height: 80rem;
+  max-height: 60rem;
   object-fit: cover;
 }
 
 .apotheke-container {
+  position: absolute;
+  top: 10rem;
+  right: 10rem;
   height: auto;
-  width: 40rem;
+  max-width: 50rem;
   background-color: #fff;
-  transform: translate(20%, -160%);
   opacity: 0.97;
 }
 
@@ -53,6 +55,8 @@
 }
 
 .apotheke-box--link {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   color: #090203;
   border: solid 2px #9e9460;

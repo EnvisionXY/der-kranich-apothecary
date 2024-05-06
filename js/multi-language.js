@@ -58,6 +58,8 @@ document.addEventListener('click', function (event) {
         translateBlogContent(selectedLanguage);
         // Translate announcement bar
         translateSlidesContent(selectedLanguage);
+        // Reload the roots-box--link element
+        reloadRootsBoxLink();
       })
       .catch(error => {
         console.error(
@@ -244,4 +246,12 @@ function translateBlogContent(selectedLanguage) {
       }
     }
   });
+}
+
+// Function to reload the roots-box--link
+
+function reloadRootsBoxLink() {
+  const rootsBoxLink = document.querySelector('.roots-box--link');
+  const currentHTML = rootsBoxLink.innerHTML;
+  rootsBoxLink.innerHTML = currentHTML;
 }
