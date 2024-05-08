@@ -38,11 +38,19 @@ function updateWebsiteContent(data) {
 
 // Function to handle language selection
 document.addEventListener('click', function (event) {
-  const languageDropdown = document.getElementById('language-dropdown');
-  if (!languageDropdown.contains(event.target)) return;
+  const mobileDropdown = document.getElementById('mobile-dropdown');
+  const headerDropdown = document.getElementById('header-dropdown');
 
-  if (event.target.tagName === 'LI') {
-    const selectedLanguage = event.target.getAttribute('value');
+  if (mobileDropdown && mobileDropdown.contains(event.target)) {
+    handleLanguageSelection(event.target);
+  } else if (headerDropdown && headerDropdown.contains(event.target)) {
+    handleLanguageSelection(event.target);
+  }
+});
+
+function handleLanguageSelection(target) {
+  if (target.tagName === 'LI') {
+    const selectedLanguage = target.getAttribute('value');
     // Load language JSON for the selected language
     loadLanguageJSON(selectedLanguage)
       .then(data => {
@@ -68,7 +76,7 @@ document.addEventListener('click', function (event) {
         );
       });
   }
-});
+}
 
 // Function to translate the news banner section
 

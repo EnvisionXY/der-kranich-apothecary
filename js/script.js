@@ -123,7 +123,6 @@ function setupStickyNavigation() {
 
 // Main function to setup all functionalities
 function setupPage() {
-  setupDropdownMenu();
   setupHerbalImageHoverEffect();
   setupEmailDisclaimer();
   setupBlogDividerWidth();
