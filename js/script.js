@@ -82,6 +82,20 @@ function setupDropdownMenu() {
   });
 }
 
+// Rotate chevrons
+
+function rotateChevron() {
+  const dropdownIcons = document.querySelectorAll('.dropdown-icon');
+  dropdownIcons.forEach(icon => {
+    icon.addEventListener('click', () => {
+      icon.classList.toggle('rotate-chevron');
+    });
+  });
+}
+
+// Call the function to initialize
+rotateChevron();
+
 // Herbal Image Hover Effect
 function setupHerbalImageHoverEffect() {
   herbalGradients.forEach(herbalGradient => {
@@ -140,6 +154,7 @@ function setMobileDividerWidth() {
 }
 
 // Sticky Navigation
+
 function setupStickyNavigation() {
   const observerOptions = {
     root: null,
@@ -150,14 +165,12 @@ function setupStickyNavigation() {
   const stickyCallback = (entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        setTimeout(() => {
-          kranichLogo.classList.remove('kranich-sticky');
-          headerBox.classList.remove('sticky');
-          const style = document.querySelector('.header-box.sticky.container');
-          if (style) {
-            style.remove();
-          }
-        }, 50);
+        kranichLogo.classList.remove('kranich-sticky');
+        headerBox.classList.remove('sticky');
+        const style = document.querySelector('.header-box.sticky.container');
+        if (style) {
+          style.remove();
+        }
       } else {
         kranichLogo.classList.add('kranich-sticky');
         headerBox.classList.add('sticky');
@@ -174,7 +187,21 @@ function setupStickyNavigation() {
 
   const observer = new IntersectionObserver(stickyCallback, observerOptions);
 
-  observer.observe(announcementBar);
+  // Add a check for the media query
+  const mediaQuery = window.matchMedia('(max-width: 44em)');
+  const mediaQueryListener = event => {
+    if (event.matches) {
+      observer.disconnect(); // Suspend the observer when the media query condition is met
+    } else {
+      observer.observe(announcementBar);
+    }
+  };
+
+  // Add the event listener for the media query
+  mediaQuery.addListener(mediaQueryListener);
+
+  // Initial check to see if the media query matches
+  mediaQueryListener(mediaQuery);
 }
 
 // Main function to setup all functionalities

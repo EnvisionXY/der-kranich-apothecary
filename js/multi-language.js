@@ -180,7 +180,7 @@ function changeInputEmail(selectedLanguage) {
   } else if (selectedLanguage === 'es') {
     emailInput.placeholder = 'Dirección de e-mail';
   } else if (selectedLanguage === 'de') {
-    emailInput.placeholder = 'Emailadresse';
+    emailInput.placeholder = 'Email-Adresse';
   }
 }
 

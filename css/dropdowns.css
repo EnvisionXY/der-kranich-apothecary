@@ -168,3 +168,10 @@
   transform: rotate(180deg);
   transition: transform 0.3s ease;
 }
+
+/* Mobile Menu Dropdown */
+
+.mobile-menu-dropdown {
+  display: flex;
+  gap: 2.4rem;
+}
