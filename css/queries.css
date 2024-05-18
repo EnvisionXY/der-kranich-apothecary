@@ -50,6 +50,33 @@ Instead, 1rem = 1em = 16px */
   .col-box::after {
     display: none;
   }
+
+  .grid--5--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid {
+    gap: 4.4rem;
+  }
+
+  .herbal-grid > .herbal-img:last-child {
+    display: none;
+  }
+}
+
+/**********************/
+/* BELOW 700px(Tablets Portrait)  */
+/**********************/
+@media (max-width: 49.5em) {
+  .main-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 3rem;
+  }
+
+  .footer {
+    padding: 4rem;
+  }
 }
 
 /**********************/
@@ -132,9 +159,9 @@ Instead, 1rem = 1em = 16px */
     justify-self: start;
   }
 
-  .herbal-grid > .herbal-img:last-child {
+  /* .herbal-grid > .herbal-img:last-child {
     display: none;
-  }
+  } */
 
   /* Apotheke */
   .apotheke {

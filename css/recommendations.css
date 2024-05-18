@@ -39,7 +39,11 @@
 }
 
 .herbal-text {
-  transform: translate(0%, -300%);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
   color: #fff;
   letter-spacing: 0.4rem;
+  line-height: 1.5;
 }
