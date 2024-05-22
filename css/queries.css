@@ -318,6 +318,10 @@ Instead, 1rem = 1em = 16px */
     font-size: 3.6rem;
   }
 
+  .main-header {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   .slide-text--1,
   .slide-text--2,
   .slide-text--3 {
@@ -327,9 +331,9 @@ Instead, 1rem = 1em = 16px */
     right: 0;
   }
 
-  .product-img--1 {
+  /* .product-img--1 {
     filter: brightness(0.8);
-  }
+  } */
 
   .quote-mark-left,
   .quote-mark-right {
@@ -462,9 +466,9 @@ Instead, 1rem = 1em = 16px */
     color: #fff;
   }
 
-  .product-img--1 {
+  /* .product-img--1 {
     filter: brightness(0.5);
-  }
+  } */
 
   .product-img--3 {
     filter: saturate(0.5) brightness(0.6);
