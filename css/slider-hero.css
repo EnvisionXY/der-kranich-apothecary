@@ -60,11 +60,11 @@
 .slide-text--1 {
   top: 21.5rem;
   left: 8rem;
-  color: #eee8e9;
+  color: #090203;
 }
 
 .product-link--1 {
-  color: #eee8e9;
+  color: #090203;
 }
 
 .slide-text--2 {
@@ -93,4 +93,30 @@
 .product-link {
   text-decoration: none;
   letter-spacing: 0.2rem;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.5s;
+}
+
+.delay-2 {
+  animation-delay: 1s;
+}
+
+.delay-3 {
+  animation-delay: 1.5s;
 }

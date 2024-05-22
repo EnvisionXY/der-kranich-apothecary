@@ -16,11 +16,15 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Swiper css -->
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./css/general.css" />
+
     <!-- <link rel="stylesheet" href="./css/style.css" /> -->
 
     <link rel="stylesheet" href="./css/apotheke.css" />
@@ -518,8 +522,9 @@
     </header>
 
     <section class="announcement-bar" style="overflow-x: hidden">
-      <div class="swiper--1 annSwiper">
+      <div class="swiper--1" id="swiper-1">
         <div class="swiper-wrapper">
+
           <div class="swiper-slide slide1">
             <div class="announcement-slide text-center">
               <p class="announcement-name">
@@ -530,6 +535,7 @@
               </p>
             </div>
           </div>
+
           <div class="swiper-slide slide2">
             <div class="announcement-slide">
               <p class="announcement-name">
@@ -540,6 +546,7 @@
               </p>
             </div>
           </div>
+
           <div class="swiper-slide slide3">
             <div class="announcement-slide">
               <p class="announcement-name">
@@ -556,8 +563,9 @@
 
     <section class="product-swiper" style="overflow-x: hidden">
       <div class="swiper-blur">
-        <div class="swiper productSwiper">
+        <div class="swiper" id="swiper-2">
           <div class="swiper-wrapper">
+
             <div class="swiper-slide">
               <div class="swiper-slide--product">
                 <img
@@ -568,26 +576,38 @@
                     ./img/hero/Hero-Img-01-1583.webp 1583w,
                     ./img/hero/Hero-Img-01-790.webp   790w
                   "
+                  data-swiper-parallax="-15%"
                 />
                 <div class="slide-text slide-text--1 uppercase-text">
                   <h3
                     class="slide-text--h3"
                     data-translate="beschwerdeminderung"
-                  >
+                    data-swiper-parallax="40"
+                    data-swiper-parallax-duration="2500"
+                    data-swiper-parallax-opacity="0"
+                    >
                     Beschwerdenminderung mit Sanddornöl
                   </h3>
-                  <h2 class="slide-text--h2" data-translate="allergiezeit">
+                  <h2 
+                    class="slide-text--h2" 
+                    data-translate="allergiezeit" 
+                    data-swiper-parallax-y="-80"
+                    data-swiper-parallax-opacity="0"
+                    data-swiper-parallax-duration="1200"
+                    >
                     Allergiezeit
                   </h2>
                   <a
-                    class="product-link product-link--1 text-center"
+                    class="product-link product-link--1 text-center fade-in delay-3"
                     href="#"
                     data-translate="jetzt_entdecken"
+                                     
                     >Jetzt entdecken</a
                   >
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide">
               <div class="swiper-slide--product">
                 <img
@@ -598,30 +618,39 @@
                     ./img/hero/Hero-Img-02-1583.webp 1583w,
                     ./img/hero/Hero-Img-02-790.webp   790w
                   "
+                  data-swiper-parallax="-15%"
                 />
-
                 <div class="slide-text slide-text--2 uppercase-text">
                   <h3
                     class="slide-text--h3 slide-text--h3--2"
                     data-translate="frühlingshighlights"
+                    data-swiper-parallax="40"
+                    data-swiper-parallax-duration="2500"
+                    data-swiper-parallax-opacity="0"
                   >
                     Frühlingshighlights
                   </h3>
                   <h2
                     class="slide-text--h2 slide-text--h2--2"
                     data-translate="kranich_bestseller"
-                  >
+                    data-swiper-parallax-y="-80"
+                    data-swiper-parallax-duration="1200"
+                    data-swiper-parallax-opacity="0"
+                    >
+                  
                     Der Kranich Bestseller
                   </h2>
                   <a
-                    class="product-link product-link--2 text-center"
+                    class="product-link product-link--2 text-center fade-in delay-3"
                     href="#"
                     data-translate="mehr_erfahren"
+                    
                     >Mehr erfahren</a
                   >
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide">
               <div class="swiper-slide--product">
                 <img
@@ -632,24 +661,32 @@
                     ./img/hero/Hero-Img-03-1583.webp 1583w,
                     ./img/hero/Hero-Img-03-790.webp   790w
                   "
+                  data-swiper-parallax="-15%"
                 />
                 <div class="slide-text slide-text--3 uppercase-text">
                   <h3
                     class="slide-text--h3 slide-text--h3--3"
                     data-translate="natürliche_gesichtspflege"
+                    data-swiper-parallax="40"
+                    data-swiper-parallax-duration="2500"
+                    data-swiper-parallax-opacity="0"
                   >
                     Natürliche Gesichtspflege aus der Kräuterküche
                   </h3>
                   <h2
                     class="slide-text--h2 slide-text--h2--3"
                     data-translate="naturkosmetik_2"
+                    data-swiper-parallax-y="-80"
+                    data-swiper-parallax-duration="1200"
+                    data-swiper-parallax-opacity="0"
                   >
                     Naturkosmetik inspiriert von der Natur
                   </h2>
                   <a
-                    class="product-link product-link--3 text-center"
+                    class="product-link product-link--3 text-center fade-in delay-3"
                     href="#"
                     data-translate="jetzt_entdecken_2"
+                    
                     >Jetzt entdecken</a
                   >
                 </div>
@@ -659,6 +696,7 @@
         </div>
       </div>
     </section>
+    
 
     <section class="quote">
       <div class="container">
@@ -1282,37 +1320,10 @@
     <script src="./js/multi-language.js"></script>
     <script src="./js/language-dropdown.js"></script>
     
-
+    <!-- Swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+  
 
-    <script>
-      var annSwiper = new Swiper('.annSwiper', {
-        centeredSlides: true,
-        loop: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-      });
-    </script>
-
-    <script>
-      var swiper = new Swiper('.productSwiper', {
-        centeredSlides: true,
-        loop: true,
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      });
-    </script>
-  </body>
+   </body>
 </html>
